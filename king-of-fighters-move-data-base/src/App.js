@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 // import "./App.css";
 import logo from "./assets/arcade-game.png";
+
 function App() {
 	return (
 		<div class="container">
@@ -22,6 +23,7 @@ function App() {
 			<p class="text-center">
 				<h1>FIGHTERS</h1>
 			</p>
+			{/*CHARACTER LIST */}
 			<div
 				class="accordion"
 				id="accordionPanelsStayOpenExample"
@@ -44,7 +46,7 @@ function App() {
 					</h2>
 					<div
 						id="panelsStayOpen-collapseOne"
-						class="accordion-collapse collapse show"
+						class="accordion-collapse collapse "
 						aria-labelledby="panelsStayOpen-headingOne"
 					>
 						<div class="accordion-body">
@@ -131,26 +133,27 @@ function App() {
 						</div>
 					</div>
 				</div>
+
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThree"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThree"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThree"
 						>
 							ANTONOV
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
-						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-collapseThree"
+						class="accordion-collapse collapse "
+						aria-labelledby="panelsStayOpen-headingThree"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -183,26 +186,27 @@ function App() {
 						</div>
 					</div>
 				</div>
+
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFour"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFour"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFour"
 						>
 							ASH CRIMSON
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFour"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFour"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -238,23 +242,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFive"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFive"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFive"
 						>
 							ATHENA ASAMIYA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFive"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFive"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -290,23 +294,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingSix"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseSix"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseSix"
 						>
 							B. JENET
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseSix"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingSix"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -342,23 +346,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingSeven"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseSeven"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseSeven"
 						>
 							BENIMARU NIKAIDO
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseSeven"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingSeven"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -394,23 +398,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingEight"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseEight"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseEight"
 						>
 							BILLY KANE
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseEight"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingEight"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -446,23 +450,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingNine"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseNine"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseNine"
 						>
 							BLUE MARY
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseNine"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingNine"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -498,23 +502,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTen"
 						>
 							CHIZURU KAGURA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -550,23 +554,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingEleven"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseEleven"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseEleven"
 						>
 							CHRIS
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseEleven"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingEleven"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -602,23 +606,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwelve"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwelve"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwelve"
 						>
 							CLARK STILL
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwelve"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwelve"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -654,23 +658,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirteen"
 						>
 							DOLORES
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -706,23 +710,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFourteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFourteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFourteen"
 						>
 							ELISABETH BLANCTORCHE
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFourteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFourteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -758,23 +762,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFifteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFifteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFifteen"
 						>
 							GATO
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFifteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFifteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -810,23 +814,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingSixteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseSixteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseSixteen"
 						>
 							GEESE HOWARD
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseSixteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingSixteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -862,23 +866,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingSeventeen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseSeventeen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseSeventeen"
 						>
 							HEIDERN
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseSeventeen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingSeventeen"
 					>
 						<div class="accordion-body">
 							<strong>
