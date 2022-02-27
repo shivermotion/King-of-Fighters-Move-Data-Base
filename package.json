@@ -2,7 +2,7 @@
   "name": "king-of-fighters-move-data-base",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shiver_motion.github.io/kofmdb",
+  "homepage": "https://shiver_motion.github.io/King-of-Fighters-Move-Data-Base/",
   "dependencies": {
     "@creativebulma/bulma-collapsible": "^1.0.4",
     "@testing-library/jest-dom": "^5.16.2",
