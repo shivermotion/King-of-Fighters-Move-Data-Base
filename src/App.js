@@ -18,6 +18,8 @@ function App() {
 						/>
 						KOFmdb
 					</a>
+					{/* PAYPAL BUTTON*/}
+					<span>Please Donate</span>
 					<form
 						action="https://www.paypal.com/donate"
 						method="post"
@@ -57,7 +59,7 @@ function App() {
 				</div>
 			</nav>
 			<p class="text-center">
-				<h1>FIGHTERSasdfasdf</h1>
+				<h1>FIGHTERS</h1>
 			</p>
 			{/*CHARACTER LIST */}
 			<div
