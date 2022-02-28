@@ -1042,33 +1042,520 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingNineteen"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									CLOUD
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DESIGNS
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									DRIPS
+									FORWARD
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DRIPS
+									BACKWARDS
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DRIPS
+									VERTICAL
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									A [EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									B [EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									C [EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FILL-IN
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SCRIBE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TO FRONT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BRAKE
+								</li>
+								<li class="list-group-item">
+									[TO
+									FRONT]
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THROWIE
+									A
+								</li>
+								<li class="list-group-item">
+									(TO
+									FRONT
+									<img
+										src={
+											kickHigh
+										}
+									/>
+									or [EX])
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THROWIE
+									B
+								</li>
+								<li class="list-group-item">
+									(TO
+									FRONT
+									<img
+										src={
+											kickHigh
+										}
+									/>
+									or [EX])
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THROWIE
+									C
+								</li>
+								<li class="list-group-item">
+									(TO
+									FRONT
+									<img
+										src={
+											kickHigh
+										}
+									/>
+									or [EX])
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									A [EX]
+								</li>
+								<li class="list-group-item">
+									(THROWIE
+									C)
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									B
+								</li>
+								<li class="list-group-item">
+									(THROWIE
+									C)
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									PIECING
+									C [EX]
+								</li>
+								<li class="list-group-item">
+									(THROWIE
+									C)
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									BACK TO
+									BACK
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									WILD
+									STYLE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									KING OF
+									PIECE:I&A
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									ALL CITY
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CROSSING
+									OUT
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -2060,6 +2547,7 @@ function App() {
 						</div>
 					</div>
 				</div>
+
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
@@ -2082,36 +2570,400 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingThirtyNine"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									SKY AXE
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									GROUND
+									HAMMER
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TARGET
+									COMBO 1{" "}
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											punchHigh
+										}
+									/>
+									-
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									SCARLET
+									PHANTOM
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									AQUA
+									SPEAR
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RISING
+									EFREET
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BLAU
+									WING
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THRUSTER
+									VISION -
+									FRONT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THRUSTER
+									VISION -
+									BACK
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THRUSTER
+									VISION -
+									SLANT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									THRUSTER
+									VISION -
+									UNDER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									GAIANIC
+									BURST
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SPECTER
+									EXTENSION
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									PHANTOM
+									SINGULATION
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									BUSTER
+									KNEE
+									KICK
+									(FORWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BUSTER
+									THROW
+									(BACKWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
@@ -2391,9 +3243,8 @@ function App() {
 									Moves
 								</li>
 								<li class="list-group-item">
-									POWER
-									GEYSER
-									[MAX]
+									STARDUST
+									IGNITION
 								</li>
 								<li class="list-group-item">
 									<img
@@ -2416,6 +3267,62 @@ function App() {
 									<img
 										src={
 											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									BUSTER
+									THROW
+									(FORWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BUSTER
+									THROW
+									(BACKWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
 										}
 									/>
 								</li>
