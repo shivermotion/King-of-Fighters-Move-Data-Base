@@ -1,6 +1,19 @@
-// import logo from "./logo.svg";
-// import "./App.css";
 import logo from "./assets/arcade-game.png";
+import right from "./assets/right.png";
+import left from "./assets/left.png";
+import up from "./assets/up.png";
+import down from "./assets/down.png";
+import downLeft from "./assets/downLeft.png";
+import downRight from "./assets/downRight.png";
+import halfCircleFoward from "./assets/halfCircleForward.png";
+import halfCircleBack from "./assets/halfCircleBack.png";
+import shory from "./assets/shory.png";
+import reverseHadoken from "./assets/reverseHadoken.png";
+import hadoken from "./assets/hadoken.png";
+import punchHigh from "./assets/punchHigh.png";
+import punchLow from "./assets/punchLow.png";
+import kickHigh from "./assets/kickHigh.png";
+import kickLow from "./assets/kickLow.png";
 
 function App() {
 	return (
@@ -58,6 +71,8 @@ function App() {
 					</form>
 				</div>
 			</nav>
+
+			{/*MAIN*/}
 			<p class="text-center">
 				<h1>FIGHTERS</h1>
 			</p>
@@ -88,33 +103,33 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingOne"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								first item's
-								accordion body.
-							</strong>{" "}
-							It is shown by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item">
+									Cras
+									justo
+									odio
+								</li>
+								<li class="list-group-item">
+									Dapibus
+									ac
+									facilisis
+									in
+								</li>
+								<li class="list-group-item">
+									Morbi
+									leo
+									risus
+								</li>
+								<li class="list-group-item">
+									Porta ac
+									consectetur
+									ac
+								</li>
+								<li class="list-group-item">
+									Vestibulum
+									at eros
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -956,23 +971,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingEighteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseEighteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseEighteen"
 						>
 							IORI YAGAMI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseEighteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingEighteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1008,23 +1023,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingNineteen"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseNineteen"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseNineteen"
 						>
 							ISLA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseNineteen"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingNineteen"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1060,23 +1075,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwenty"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwenty"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwenty"
 						>
 							JOE HIGASHI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwenty"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwenty"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1112,23 +1127,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyOne"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyOne"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyOne"
 						>
 							K'
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyOne"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyOne"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1164,23 +1179,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyTwo"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyTwo"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyTwo"
 						>
 							KING
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyTwo"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyTwo"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1216,23 +1231,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyThree"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyThree"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyThree"
 						>
 							KING OF DINOSAURS
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyThree"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyThree"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1268,23 +1283,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyFour"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyFour"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyFour"
 						>
 							KROHNEN
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyFour"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyFour"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1320,23 +1335,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyFive"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyFive"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyFive"
 						>
 							KUKRI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyFive"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyFive"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1372,23 +1387,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentySix"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentySix"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentySix"
 						>
 							KYO KUSANAGI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentySix"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentySix"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1424,23 +1439,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentySeven"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentySeven"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentySeven"
 						>
 							LEONA HEIDERN
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentySeven"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentySeven"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1476,23 +1491,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyEight"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyEight"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyEight"
 						>
 							LUONG
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyEight"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyEight"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1528,23 +1543,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingTwentyNine"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseTwentyNine"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseTwentyNine"
 						>
 							MAI SHIRANUI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseTwentyNine"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingTwentyNine"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1580,23 +1595,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirty"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirty"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirty"
 						>
 							MAXIMA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirty"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirty"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1632,23 +1647,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyOne"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyOne"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyOne"
 						>
 							MEITENKUN
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyOne"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyOne"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1684,23 +1699,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyTwo"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyTwo"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyTwo"
 						>
 							RALF JONES
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyTwo"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyTwo"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1736,23 +1751,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyThree"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyThree"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyThree"
 						>
 							RAMON
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyThree"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyThree"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1788,23 +1803,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyFour"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyFour"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyFour"
 						>
 							ROBERT GARCIA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyFour"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyFour"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1840,23 +1855,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyFive"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyFive"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyFive"
 						>
 							ROCK HOWARD
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyFive"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyFive"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1892,23 +1907,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtySix"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtySix"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtySix"
 						>
 							RYO SAKAZAKI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtySix"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtySix"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1944,23 +1959,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtySeven"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtySeven"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtySeven"
 						>
 							RYUJI YAMAZAKI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtySeven"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtySeven"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -1996,23 +2011,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyEight"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyEight"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyEight"
 						>
 							SHERMIE
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyEight"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyEight"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -2048,23 +2063,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingThirtyNine"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseThirtyNine"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseThirtyNine"
 						>
 							SHUN'EI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseThirtyNine"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingThirtyNine"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -2100,75 +2115,334 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingForty"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseForty"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseForty"
 						>
 							TERRY BOGARD
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseForty"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingForty"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									BACK
+									KNUCKLE
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RISING
+									UPPER
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									POWER
+									WAVE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BURN
+									KNUCKLE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CRACK
+									SHOOT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RISING
+									TACKLE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									POWER
+									CHARGE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									POWER
+									DUNK
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									POWER
+									GEYSER
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BUSTER
+									WOLF
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									POWER
+									GEYSER
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFortyOne"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFortyOne"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFortyOne"
 						>
 							VANESSA
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFortyOne"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFortyOne"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -2204,23 +2478,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFortyTwo"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFortyTwo"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFortyTwo"
 						>
 							WHIP
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFortyTwo"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFortyTwo"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -2256,23 +2530,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFortyThree"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFortyThree"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFortyThree"
 						>
 							YASHIRO NANAKASE
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFortyThree"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFortyThree"
 					>
 						<div class="accordion-body">
 							<strong>
@@ -2308,23 +2582,23 @@ function App() {
 				<div class="accordion-item">
 					<h2
 						class="accordion-header"
-						id="panelsStayOpen-headingTwo"
+						id="panelsStayOpen-headingFortyFour"
 					>
 						<button
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#panelsStayOpen-collapseTwo"
+							data-bs-target="#panelsStayOpen-collapseFortyFour"
 							aria-expanded="false"
-							aria-controls="panelsStayOpen-collapseTwo"
+							aria-controls="panelsStayOpen-collapseFortyFour"
 						>
 							YURI SAKAZAKI
 						</button>
 					</h2>
 					<div
-						id="panelsStayOpen-collapseTwo"
+						id="panelsStayOpen-collapseFortyFour"
 						class="accordion-collapse collapse"
-						aria-labelledby="panelsStayOpen-headingTwo"
+						aria-labelledby="panelsStayOpen-headingFortyFour"
 					>
 						<div class="accordion-body">
 							<strong>
