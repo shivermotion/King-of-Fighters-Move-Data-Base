@@ -1893,33 +1893,557 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwentySix"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<li class="list-group-item text-center">
+								Command Moves
+							</li>
+							<li class="list-group-item">
+								GE-SHIKI GOFU YO
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										right
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								88 SHIKI
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										downRight
+									}
+								/>
+								+
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								GE-SHIKI NARAKU
+								OTOSHI
+							</li>
+							<li class="list-group-item">
+								[IN AIR]
+								<img
+									src={
+										down
+									}
+								/>
+								+
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+
+							<li class="list-group-item text-center">
+								Special Moves
+							</li>
+							<li class="list-group-item">
+								100 SHIKI
+								ONIYAKI [EX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										shory
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								R.E.D. KICK [EX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										left
+									}
+								/>
+								<img
+									src={
+										reverseHadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								75 SHIKI KAI
+								[EX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								75 SHIKI KAI
+								(FOLLOW UP)
+							</li>
+							<li class="list-group-item">
+								[
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>{" "}
+								75 SHIKI KAI]
+								<img
+									src={
+										kickLow
+									}
+								/>{" "}
+								or{" "}
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								115 SHIKI
+								DOKUGAMI [EX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								401
+								SHIKI・TSUMIYOMI
+							</li>
+							<li class="list-group-item">
+								[115
+								SHIKI・DOKUGAMI]
+								<img
+									src={
+										halfCircleBack
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								402
+								SHIKI・BATSUYOMI
+							</li>
+							<li class="list-group-item">
+								[401
+								SHIKI・TSUMIYOMI]
+								<img
+									src={
+										right
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								100
+								SHIKI・ONIYAKI
+							</li>
+							<li class="list-group-item">
+								[402
+								SHIKI・BATSUYOMI]
+								<img
+									src={
+										shory
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								114
+								SHIKI・ARAGAMI
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								128
+								SHIKI・KONOKIZU
+							</li>
+							<li class="list-group-item">
+								[114
+								SHIKI・ARAGAMI]
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								125 SHIKI NANASE
+							</li>
+							<li class="list-group-item">
+								[128
+								SHIKI・KONOKIZU]
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								127
+								SHIKI・YANOSABI①
+							</li>
+							<li class="list-group-item">
+								[128
+								SHIKI・KONOKIZU]
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								128
+								SHIKI・YANOSABI②
+							</li>
+							<li class="list-group-item">
+								[114
+								SHIKI・ARAGAMI]
+								<img
+									src={
+										halfCircleBack
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item"></li>
+							<li class="list-group-item">
+								(THROWIE C)
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								PIECING B
+							</li>
+							<li class="list-group-item">
+								(THROWIE C)
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								PIECING C [EX]
+							</li>
+							<li class="list-group-item">
+								(THROWIE C)
+								<img
+									src={
+										reverseHadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item text-center">
+								Super Special
+								Moves
+							</li>
+							<li class="list-group-item">
+								BACK TO BACK
+								[MAX]
+							</li>
+							<li class="list-group-item">
+								[IN AIR]
+								<img
+									src={
+										hadoken
+									}
+								/>
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>{" "}
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								WILD STYLE [MAX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										hadoken
+									}
+								/>
+								<img
+									src={
+										hadoken
+									}
+								/>
+								+
+								<img
+									src={
+										punchLow
+									}
+								/>{" "}
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item text-center">
+								Climax Super
+								Special Moves
+							</li>
+							<li class="list-group-item">
+								KING OF
+								PIECE:I&A
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										reverseHadoken
+									}
+								/>
+								<img
+									src={
+										halfCircleFoward
+									}
+								/>
+								+
+								<img
+									src={
+										punchHigh
+									}
+								/>{" "}
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item text-center">
+								Normal Throws
+							</li>
+							<li class="list-group-item">
+								ALL CITY
+							</li>
+							<li class="list-group-item">
+								[CLOSE BY]
+								<img
+									src={
+										left
+									}
+								/>
+								or
+								<img
+									src={
+										right
+									}
+								/>
+								+
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								CROSSING OUT
+							</li>
+							<li class="list-group-item">
+								[CLOSE BY]
+								<img
+									src={
+										left
+									}
+								/>
+								or
+								<img
+									src={
+										right
+									}
+								/>
+								+
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
 						</div>
 					</div>
 				</div>
@@ -2910,7 +3434,6 @@ function App() {
 									BUSTER
 									KNEE
 									KICK
-									(FORWARD)
 								</li>
 								<li class="list-group-item">
 									[CLOSE
@@ -2934,9 +3457,9 @@ function App() {
 									/>
 								</li>
 								<li class="list-group-item">
-									BUSTER
+									AERIAL
+									LEG
 									THROW
-									(BACKWARD)
 								</li>
 								<li class="list-group-item">
 									[CLOSE
