@@ -2249,12 +2249,17 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item"></li>
 							<li class="list-group-item">
-								(THROWIE C)
+								212
+								SHIKI・KOTOTSUKI
+								YO
+							</li>
+							<li class="list-group-item">
+								[128
+								SHIKI・YANOSABI②]
 								<img
 									src={
-										hadoken
+										halfCircleBack
 									}
 								/>
 								+
@@ -2263,18 +2268,7 @@ function App() {
 										kickLow
 									}
 								/>
-							</li>
-							<li class="list-group-item">
-								PIECING B
-							</li>
-							<li class="list-group-item">
-								(THROWIE C)
-								<img
-									src={
-										hadoken
-									}
-								/>
-								+
+								or
 								<img
 									src={
 										kickHigh
@@ -2282,13 +2276,95 @@ function App() {
 								/>
 							</li>
 							<li class="list-group-item">
-								PIECING C [EX]
+								GE-SHIKI・MIGARI
+								UGACHI
 							</li>
 							<li class="list-group-item">
-								(THROWIE C)
+								[128
+								SHIKI・YANOSABI②]
 								<img
 									src={
-										reverseHadoken
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								124
+								SHIKI・MUNOTSHUCHI{" "}
+							</li>
+							<li class="list-group-item">
+								[114
+								SHIKI・ARAGAMI]
+								<img
+									src={
+										halfCircleBack
+									}
+								/>
+								+
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								427
+								SHIKI・HIKIGANE
+							</li>
+							<li class="list-group-item">
+								[124
+								SHIKI・MUNOTSHUCHI]
+								<img
+									src={
+										kickLow
+									}
+								/>
+								or
+								<img
+									src={
+										kickHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								GE-SHIKI・TSURUBEOTOSHI
+							</li>
+							<li class="list-group-item">
+								[124
+								SHIKI・MUNOTSHUCHI]
+								<img
+									src={
+										punchLow
+									}
+								/>
+								or
+								<img
+									src={
+										punchHigh
+									}
+								/>
+							</li>
+							<li class="list-group-item">
+								212
+								SHIKI・KOTOTSUKI
+								YO [EX]
+							</li>
+							<li class="list-group-item">
+								<img
+									src={
+										halfCircleBack
 									}
 								/>
 								+
@@ -2309,36 +2385,37 @@ function App() {
 								Moves
 							</li>
 							<li class="list-group-item">
-								BACK TO BACK
+								URA 108
+								SHIKI・OROCHINAGI
 								[MAX]
 							</li>
 							<li class="list-group-item">
-								[IN AIR]
 								<img
 									src={
-										hadoken
+										reverseHadoken
 									}
 								/>
 								<img
 									src={
-										hadoken
+										halfCircleFoward
 									}
 								/>
 								+
 								<img
 									src={
-										kickLow
+										punchLow
 									}
 								/>{" "}
 								or
 								<img
 									src={
-										kickHigh
+										punchHigh
 									}
 								/>
+								[HOLD OK]
 							</li>
 							<li class="list-group-item">
-								WILD STYLE [MAX]
+								182 SHIKI [MAX]
 							</li>
 							<li class="list-group-item">
 								<img
@@ -2363,14 +2440,15 @@ function App() {
 										punchHigh
 									}
 								/>
+								[HOLD OK]
 							</li>
 							<li class="list-group-item text-center">
 								Climax Super
 								Special Moves
 							</li>
 							<li class="list-group-item">
-								KING OF
-								PIECE:I&A
+								URA 1212
+								SHIKI・YAKUMO
 							</li>
 							<li class="list-group-item">
 								<img
@@ -2399,7 +2477,7 @@ function App() {
 								Normal Throws
 							</li>
 							<li class="list-group-item">
-								ALL CITY
+								HATSUGANE
 							</li>
 							<li class="list-group-item">
 								[CLOSE BY]
@@ -2422,7 +2500,8 @@ function App() {
 								/>
 							</li>
 							<li class="list-group-item">
-								CROSSING OUT
+								ISSETSU SEOI
+								NAGE
 							</li>
 							<li class="list-group-item">
 								[CLOSE BY]
