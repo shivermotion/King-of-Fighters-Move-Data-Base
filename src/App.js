@@ -106,30 +106,346 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item">
-									Cras
-									justo
-									odio
+								<li class="list-group-item text-center">
+									Command
+									Moves
 								</li>
 								<li class="list-group-item">
-									Dapibus
-									ac
-									facilisis
-									in
+									HIRATE
+									UCHI
 								</li>
 								<li class="list-group-item">
-									Morbi
-									leo
-									risus
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
 								</li>
 								<li class="list-group-item">
-									Porta ac
-									consectetur
-									ac
+									GENEI
+									SHIRANUI
 								</li>
 								<li class="list-group-item">
-									Vestibulum
-									at eros
+									[IN AIR]
+									<img
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TARGET
+									COMBO 1
+								</li>
+								<li class="list-group-item">
+									[PRESS
+									IN ORDER
+									- CLOSE
+									BY]
+									<img
+										src={
+											kickLow
+										}
+									/>
+									-
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ZAN-EI
+									KEN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KUUHA
+									DAN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KUUHA
+									DAN
+									(BRAKE)
+								</li>
+								<li class="list-group-item">
+									[KUUHA
+									DAN]
+									<img
+										src={
+											kickLow
+										}
+									/>
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HISHOU
+									KEN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SHOURYUU
+									DAN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									CHOU
+									REPPA
+									DAN
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ZETSU
+									HITSHOU
+									KEN
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									CHOU
+									SHIN
+									SOKU
+									SAN-EI
+									KEN
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									KAKAEKOMI
+									NAGE
+									(FORWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KAKAEKOMI
+									NAGE
+									(BACKWARD)
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
 								</li>
 							</ul>
 						</div>
