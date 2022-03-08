@@ -3466,33 +3466,341 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingThirteen"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									HILZUNI
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TARGET
+									COMBO 1
+								</li>
+								<li class="list-group-item">
+									PRESS IN
+									ORDER
+									[CLOSE
+									RANGE]
+									<img
+										src={
+											kickHigh
+										}
+									/>
+									-
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									BURJ
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									QAFAS
+									QABL
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									QAFAS
+									KHALFI
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									NESH
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											left
+										}
+									/>
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									or
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ALTARIQ
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											down
+										}
+									/>
+									<img
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									GHADAB
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									RANGE]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HADIR
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									KHALAQ
+									AL'ARD
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									SALABA
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									MARAN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -3518,33 +3826,303 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingFourteen"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									ECLAIRE
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ETINCELLE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									COUP·DE·VENT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ILLUSION
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+									[IN TIME
+									WITH
+									OPPONENTS
+									ATTACK]
+								</li>
+								<li class="list-group-item">
+									GRELE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									or
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									AURORE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									NOBLE-BLANCHE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									RANGE]
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									GRAND
+									RAFALE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									FETE DE
+									LA
+									LUMIERE
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									SALABA
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									MARAN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
