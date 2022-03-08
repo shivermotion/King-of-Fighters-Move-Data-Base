@@ -4075,7 +4075,7 @@ function App() {
 									Throws
 								</li>
 								<li class="list-group-item">
-									SALABA
+									MANIERE
 								</li>
 								<li class="list-group-item">
 									[CLOSE
@@ -4099,7 +4099,7 @@ function App() {
 									/>
 								</li>
 								<li class="list-group-item">
-									MARAN
+									EXIL
 								</li>
 								<li class="list-group-item">
 									[CLOSE
@@ -9086,33 +9086,413 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingFortyTwo"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									WHIP
+									SHOT
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									[UP TO 5
+									INPUTS]
+								</li>
+								<li class="list-group-item">
+									TALON
+									SHOT
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									BOOMERANG
+									SHOT
+									"CODE:SC"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE A
+									"CODE:
+									SUPERIOR"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE A
+									"CODE:
+									CANDY"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[STRENGTH
+									SHOT
+									TYPE A
+									"CODE:
+									SUPERIOR"]
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE B
+									"CODE:
+									STRENGTH"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE B
+									"CODE:
+									CANDY"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[STRENGTH
+									SHOT
+									TYPE B
+									"CODE:
+									STRENGTH"]
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE C
+									"CODE:
+									VICTORY"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+									[HOLD
+									OK]
+								</li>
+								<li class="list-group-item">
+									STRENGTH
+									SHOT
+									TYPE C
+									"CODE:
+									CANDY"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[STRENGTH
+									SHOT
+									TYPE C
+									"CODE:
+									VICTORY"]
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOOK
+									SHOT
+									"CODE:
+									ZEPHYR"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>{" "}
+								<li class="list-group-item">
+									CRESCENT
+									SWATTER
+									"CODE:FS"
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											left
+										}
+									/>
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									SONIC
+									SLAUGHTER
+									"CODE:KW"
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DESTRUCTION
+									BARRAGE
+									"CODE:
+									YGW"
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											hadoken
+										}
+									/>
+									<img
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									DEPRAVITY
+									BRANDING
+									"CODE:FA"
+								</li>
+								<li class="list-group-item">
+									<img
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									STRIKE
+									THREE
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ASSASSIN
+									TRAP
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
