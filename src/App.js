@@ -3,7 +3,7 @@ import right from "./assets/right.png";
 import left from "./assets/left.png";
 import up from "./assets/up.png";
 import down from "./assets/down.png";
-import downLeft from "./assets/downLeft.png";
+// import downLeft from "./assets/downLeft.png";
 import downRight from "./assets/downRight.png";
 import halfCircleFoward from "./assets/halfCircleForward.png";
 import halfCircleBack from "./assets/halfCircleBack.png";
@@ -25,8 +25,8 @@ function App() {
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#">
 						<img
+							alt="fightingIcon"
 							src={logo}
-							alt=""
 							width="30"
 							height="24"
 							class="d-inline-block align-text-top"
@@ -64,7 +64,7 @@ function App() {
 							alt="Donate with PayPal button"
 						/>
 						<img
-							alt=""
+							alt="fightingIcon"
 							border="0"
 							src="https://www.paypal.com/en_US/i/scr/pixel.gif"
 							width="1"
@@ -116,18 +116,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -140,12 +143,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -161,12 +166,14 @@ function App() {
 									- CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -182,18 +189,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -205,18 +215,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -231,11 +244,13 @@ function App() {
 									[KUUHA
 									DAN]
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -247,18 +262,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -270,18 +288,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -301,23 +322,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -331,23 +356,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -369,23 +398,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -404,18 +437,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -430,18 +466,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -482,12 +521,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -500,12 +541,14 @@ function App() {
 							<li class="list-group-item">
 								[IN AIR]
 								<img
+									alt="fightingIcon"
 									src={
 										down
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -520,18 +563,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -543,18 +589,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -565,12 +614,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										downRight
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -581,12 +632,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										downRight
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -597,23 +650,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -625,18 +682,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -648,18 +708,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -670,15 +733,20 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								[UNCHAIN START]
-								<img src={up} />
+								<img
+									alt="fightingIcon"
+									src={up}
+								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -690,12 +758,14 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN START]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -708,18 +778,21 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN START]
 								<img
+									alt="fightingIcon"
 									src={
 										down
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -730,15 +803,20 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								[UNCHAIN START]
-								<img src={up} />
+								<img
+									alt="fightingIcon"
+									src={up}
+								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -751,18 +829,21 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN START]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -774,18 +855,21 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN START]
 								<img
+									alt="fightingIcon"
 									src={
 										down
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -797,11 +881,13 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -814,17 +900,20 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -837,17 +926,20 @@ function App() {
 							<li class="list-group-item">
 								[UNCHAIN CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -861,17 +953,20 @@ function App() {
 								or [SPECIAL
 								CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
@@ -885,17 +980,20 @@ function App() {
 								or [SPECIAL
 								CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -909,23 +1007,27 @@ function App() {
 								or [SPECIAL
 								CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -941,12 +1043,14 @@ function App() {
 								or [SPECIAL
 								CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
@@ -962,12 +1066,14 @@ function App() {
 								CIRCLE] or
 								[SPECIAL CIRCLE]
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -982,23 +1088,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										shory
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1010,23 +1120,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										shory
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1044,22 +1158,26 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
 								/>{" "}
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1074,18 +1192,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1097,18 +1218,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1148,12 +1272,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
@@ -1166,12 +1292,14 @@ function App() {
 								[PRESS IN ORDER]
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
 								/>
 								-
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1184,12 +1312,14 @@ function App() {
 								[PRESS IN ORDER]
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
 								/>
 								-
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1204,18 +1334,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1227,18 +1360,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										shory
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1250,12 +1386,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -1267,12 +1405,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1284,18 +1424,21 @@ function App() {
 							<li class="list-group-item">
 								[IN AIR]
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1312,23 +1455,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>{" "}
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1340,23 +1487,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>{" "}
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1372,23 +1523,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
 								/>{" "}
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1403,18 +1558,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -1426,18 +1584,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -1479,12 +1640,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -1495,12 +1658,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1512,12 +1677,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1534,23 +1701,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											up
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1562,30 +1733,35 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1599,23 +1775,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1630,23 +1810,27 @@ function App() {
 									[SANS-COULETTE
 									ACTIVE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -1660,23 +1844,27 @@ function App() {
 									[SANS-COULETTE
 									ACTIVE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											up
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1691,23 +1879,27 @@ function App() {
 									[SANS-COULETTE
 									ACTIVE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1724,23 +1916,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -1752,23 +1948,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1781,24 +1981,28 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1815,23 +2019,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1848,18 +2056,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -1872,18 +2083,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -1927,12 +2141,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -1946,12 +2162,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -1970,18 +2188,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -1994,18 +2215,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2018,18 +2242,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2043,18 +2270,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2070,23 +2300,27 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2099,18 +2333,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2123,18 +2360,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2154,23 +2394,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2188,11 +2432,13 @@ function App() {
 									CRYSTAL
 									BIT]
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -2206,23 +2452,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2243,22 +2493,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2276,18 +2530,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2301,18 +2558,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2327,18 +2587,21 @@ function App() {
 									BY - IN
 									AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2408,12 +2671,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2426,12 +2691,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -2449,18 +2716,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2473,23 +2743,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2501,18 +2775,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2524,18 +2801,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2547,18 +2827,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2578,23 +2861,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2607,23 +2894,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2642,22 +2933,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2676,18 +2971,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2701,18 +2999,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -2728,18 +3029,21 @@ function App() {
 									BY-IN
 									AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -2797,33 +3101,549 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingNine"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									HAMMER
+									ARCH
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DOUBLE
+									ROLLING
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CLIMBING
+									ARROW
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									STRAIGHT
+									SLICER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[CHARGE]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CRAB
+									CLUTCH
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>{" "}
+									STRAIGHT
+									SLICER]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STUN
+									FANG
+									[EX]
+								</li>
+								<li class="list-group-item">
+									( [EX]
+									STRAIGHT
+									SLICER)
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									VERTICAL
+									ARROW
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									M.
+									SNATCHER
+								</li>
+								<li class="list-group-item">
+									[
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>{" "}
+									VERTICAL
+									ARROW]
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SPIN
+									FALL
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									M.SPIDER
+								</li>
+								<li class="list-group-item">
+									[
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									SPIN
+									FALL]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									REAL
+									COUNTER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BACKDROP
+									REAL
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY ·
+									REAL
+									COUNTER]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									M.BREAKER
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									M.
+									TYPHOON
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									RANGE]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									M.SPLASH
+									ROSE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									M.
+									DYNAMITE
+									SWING
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									LOW KICK
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									VIKTOR
+									THROW
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -2849,33 +3669,493 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTen"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									JO KATSU
+									ZHENG
+									ZHENG
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									JO KATSU
+									CANG
+									CANG
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									JO KATSU
+									CONG
+									CONG
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									212
+									KATSU
+									OTSU
+									SHIKI
+									CHOUMON
+									NO
+									ISSHIN
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									212
+									KATSU
+									SHINSOKU
+									NO
+									NORITO
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STOP
+								</li>
+								<li class="list-group-item">
+									[212
+									KATSU
+									SHINSOKU
+									NO
+									NORITO]
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									212
+									KATSU
+									SHINSOKU
+									NO
+									NORITO
+									TEN ZUI
+								</li>
+								<li class="list-group-item">
+									[212
+									KATSU
+									SHINSOKU
+									NO
+									NORITO]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									100
+									KATSU
+									TENJIN
+									NO
+									KOTOWARI
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									108
+									KATSU
+									TAMAYURA
+									NO
+									SHITSUNE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>{" "}
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									URAMEN
+									85 KATSU
+									REIGI NO
+									ISHIZUE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									URAMEN 1
+									KATSU
+									SAN RAI
+									NO FUJIN
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									URAMEN
+									31 KATSU
+									KUUSEN
+									NO
+									JOUHARI
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									REI
+									GETSU
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KAI TEN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -2901,33 +4181,407 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingEleven"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									SPINNING
+									ARRAY
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									REVERSE
+									ANCHOR
+									KICK
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CARRY
+									OFF KICK
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									HUNTING
+									AIR [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									GLIDER
+									STOMP
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SHOOTING
+									DANCER
+									THRUST
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SHOOTING
+									DANCER
+									STEP
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DIRECTION
+									CHANGE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SCRAMBLE
+									DASH
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>{" "}
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									CHAIN
+									SLIDE
+									TOUCH
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TWISTER
+									DRIVE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ONSLAUGHT
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									STEP
+									TURN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									AERIAL
+									DROP
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -2963,12 +4617,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -2979,17 +4635,20 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3007,18 +4666,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -3032,17 +4694,20 @@ function App() {
 									[MOUNT
 									TACKLE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -3057,17 +4722,20 @@ function App() {
 									[MOUNT
 									TACKLE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3082,18 +4750,21 @@ function App() {
 									LIFT
 									(D.D.T)]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3107,23 +4778,27 @@ function App() {
 									[MOUNT
 									TACKLE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3139,18 +4814,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3163,18 +4841,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3188,18 +4869,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3216,18 +4900,21 @@ function App() {
 									GATLING
 									ATTACK]
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3241,18 +4928,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3273,23 +4963,27 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3302,23 +4996,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3337,23 +5035,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3371,18 +5073,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3396,18 +5101,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3423,18 +5131,21 @@ function App() {
 									BY-IN
 									AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3476,12 +5187,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -3497,12 +5210,14 @@ function App() {
 									[CLOSE
 									RANGE]
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3518,18 +5233,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3542,18 +5260,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3566,18 +5287,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3589,23 +5313,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3617,35 +5345,41 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3665,23 +5399,27 @@ function App() {
 									[CLOSE
 									RANGE]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3693,23 +5431,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3727,22 +5469,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3759,18 +5505,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3783,18 +5532,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3836,12 +5588,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -3858,18 +5612,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3881,18 +5638,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3904,18 +5664,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3931,18 +5694,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -3954,18 +5720,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -3985,23 +5754,27 @@ function App() {
 									[CLOSE
 									RANGE]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4014,23 +5787,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4049,22 +5826,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4081,18 +5862,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4105,18 +5889,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4200,33 +5987,369 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingSeventeen"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									SHOOTER
+									NARNAGEL
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									CROSS
+									CUTTER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[CHARGE]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									MOON
+									SLASHER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[CHARGE]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											up
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STORM
+									BRINGER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STINGER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ASSAULT
+									SABER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									HEIDERN
+									END
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HEIDERN
+									SLASH
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+									([MAX]{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>{" "}
+									or
+									NEUTRAL
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>{" "}
+									)
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									GAE BOLG
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									LEAD
+									BELCHER
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BACKSTABBING
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -4263,12 +6386,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -4283,6 +6408,7 @@ function App() {
 									[GE-SHIKI
 									YUMEBIKI]
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -4295,12 +6421,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -4313,12 +6441,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -4336,18 +6466,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4361,18 +6494,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4386,18 +6522,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4414,18 +6553,21 @@ function App() {
 									AOIBANA
 									1]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4442,18 +6584,21 @@ function App() {
 									AOIBANA
 									2]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4467,18 +6612,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4492,23 +6640,27 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4522,24 +6674,28 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4558,23 +6714,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4589,12 +6749,14 @@ function App() {
 								<li class="list-group-item">
 									[
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4603,22 +6765,26 @@ function App() {
 									SHIKI
 									YAOTOME]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4632,23 +6798,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4669,22 +6839,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4701,18 +6875,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4725,18 +6902,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4778,12 +6958,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -4794,12 +6976,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											downRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4817,18 +7001,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4841,12 +7028,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -4859,12 +7048,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4877,12 +7068,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -4895,12 +7088,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4913,18 +7108,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4936,18 +7134,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -4959,18 +7160,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -4982,18 +7186,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5006,6 +7213,7 @@ function App() {
 									[TO
 									FRONT]
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5019,12 +7227,14 @@ function App() {
 									(TO
 									FRONT
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
 									/>
 									or [EX])
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -5038,12 +7248,14 @@ function App() {
 									(TO
 									FRONT
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
 									/>
 									or [EX])
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -5057,12 +7269,14 @@ function App() {
 									(TO
 									FRONT
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
 									/>
 									or [EX])
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -5076,12 +7290,14 @@ function App() {
 									(THROWIE
 									C)
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -5095,12 +7311,14 @@ function App() {
 									(THROWIE
 									C)
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5114,18 +7332,21 @@ function App() {
 									(THROWIE
 									C)
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5144,23 +7365,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5173,23 +7398,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -5207,22 +7436,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5239,18 +7472,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -5264,18 +7500,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -5627,12 +7866,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -5643,12 +7884,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										downRight
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -5661,12 +7904,14 @@ function App() {
 							<li class="list-group-item">
 								[IN AIR]
 								<img
+									alt="fightingIcon"
 									src={
 										down
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5682,18 +7927,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										shory
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5704,23 +7952,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -5732,18 +7984,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -5756,24 +8011,28 @@ function App() {
 							<li class="list-group-item">
 								[
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
 								/>{" "}
 								75 SHIKI KAI]
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>{" "}
 								or{" "}
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -5785,12 +8044,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5804,18 +8065,21 @@ function App() {
 								[115
 								SHIKI・DOKUGAMI]
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5829,18 +8093,21 @@ function App() {
 								[401
 								SHIKI・TSUMIYOMI]
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5854,18 +8121,21 @@ function App() {
 								[402
 								SHIKI・BATSUYOMI]
 								<img
+									alt="fightingIcon"
 									src={
 										shory
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5877,12 +8147,14 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
@@ -5896,18 +8168,21 @@ function App() {
 								[114
 								SHIKI・ARAGAMI]
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5920,12 +8195,14 @@ function App() {
 								[128
 								SHIKI・KONOKIZU]
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -5939,12 +8216,14 @@ function App() {
 								[128
 								SHIKI・KONOKIZU]
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5958,18 +8237,21 @@ function App() {
 								[114
 								SHIKI・ARAGAMI]
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -5984,18 +8266,21 @@ function App() {
 								[128
 								SHIKI・YANOSABI②]
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6009,12 +8294,14 @@ function App() {
 								[128
 								SHIKI・YANOSABI②]
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -6028,18 +8315,21 @@ function App() {
 								[114
 								SHIKI・ARAGAMI]
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6053,12 +8343,14 @@ function App() {
 								[124
 								SHIKI・MUNOTSHUCHI]
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6071,12 +8363,14 @@ function App() {
 								[124
 								SHIKI・MUNOTSHUCHI]
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -6089,18 +8383,21 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleBack
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickLow
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6117,23 +8414,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>{" "}
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -6145,23 +8446,27 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										hadoken
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchLow
 									}
 								/>{" "}
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -6178,22 +8483,26 @@ function App() {
 							</li>
 							<li class="list-group-item">
 								<img
+									alt="fightingIcon"
 									src={
 										reverseHadoken
 									}
 								/>
 								<img
+									alt="fightingIcon"
 									src={
 										halfCircleFoward
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
 								/>{" "}
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6208,18 +8517,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										punchHigh
 									}
@@ -6232,18 +8544,21 @@ function App() {
 							<li class="list-group-item">
 								[CLOSE BY]
 								<img
+									alt="fightingIcon"
 									src={
 										left
 									}
 								/>
 								or
 								<img
+									alt="fightingIcon"
 									src={
 										right
 									}
 								/>
 								+
 								<img
+									alt="fightingIcon"
 									src={
 										kickHigh
 									}
@@ -6285,18 +8600,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -6315,23 +8633,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6345,23 +8667,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											up
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6376,18 +8702,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6402,18 +8731,21 @@ function App() {
 									HEART
 									ATTACK]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6428,18 +8760,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6453,23 +8788,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6484,6 +8823,7 @@ function App() {
 								<li class="list-group-item">
 									[
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6491,12 +8831,14 @@ function App() {
 									GRAND
 									SABER]
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6508,18 +8850,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6537,23 +8882,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6566,22 +8915,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6600,22 +8953,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6634,18 +8991,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6660,18 +9020,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6766,12 +9129,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -6783,12 +9148,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											downRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6802,6 +9169,7 @@ function App() {
 									BY
 									CORNER]
 									<img
+										alt="fightingIcon"
 										src={
 											upRight
 										}
@@ -6817,12 +9185,14 @@ function App() {
 									- CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6838,18 +9208,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6861,18 +9234,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6885,18 +9261,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -6911,23 +9290,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											upRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6942,29 +9325,34 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											upLeft
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											up
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -6979,18 +9367,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7009,23 +9400,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7040,23 +9435,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7071,23 +9470,27 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7107,22 +9510,26 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7140,18 +9547,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7165,18 +9575,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7188,18 +9601,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7294,12 +9710,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -7310,12 +9728,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -7332,18 +9752,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7356,23 +9779,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7388,12 +9815,14 @@ function App() {
 									[SEN-SISS
 									HOU]
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7406,23 +9835,27 @@ function App() {
 								<li class="list-group-item">
 									[CHARGE]
 									<img
+										alt="fightingIcon"
 										src={
 											down
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											up
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7436,18 +9869,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7466,23 +9902,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7495,23 +9935,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7529,22 +9973,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7562,18 +10010,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7587,18 +10038,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7641,12 +10095,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											downRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -7664,12 +10120,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -7682,12 +10140,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7700,18 +10160,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7725,18 +10188,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7750,12 +10216,14 @@ function App() {
 								<li class="list-group-item">
 									[REPEATEDLY]
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7768,18 +10236,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7794,18 +10265,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7824,23 +10298,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7854,23 +10332,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7889,23 +10371,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -7924,18 +10410,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -7949,18 +10438,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8263,12 +10755,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -8280,12 +10774,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -8297,12 +10793,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>
 									-
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8319,18 +10817,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8343,18 +10844,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8367,18 +10871,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8392,18 +10899,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8418,12 +10928,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8438,12 +10950,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8458,12 +10972,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -8478,12 +10994,14 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -8501,23 +11019,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8530,23 +11052,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8564,22 +11090,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8598,18 +11128,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8624,18 +11157,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8679,12 +11215,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -8696,12 +11234,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											downRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8718,18 +11258,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8742,18 +11285,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8766,18 +11312,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8790,18 +11339,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8814,18 +11366,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8838,18 +11393,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											shory
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8867,23 +11425,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8896,23 +11458,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -8930,23 +11496,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8965,18 +11535,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -8991,18 +11564,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9097,12 +11673,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -9116,12 +11694,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											downRight
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -9139,18 +11719,21 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9166,12 +11749,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
@@ -9192,6 +11777,7 @@ function App() {
 									"CODE:
 									SUPERIOR"]
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9207,12 +11793,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
@@ -9233,6 +11821,7 @@ function App() {
 									"CODE:
 									STRENGTH"]
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9248,12 +11837,14 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleBack
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9276,6 +11867,7 @@ function App() {
 									"CODE:
 									VICTORY"]
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9291,18 +11883,21 @@ function App() {
 								<li class="list-group-item">
 									[IN AIR]
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9316,23 +11911,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9351,23 +11950,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9382,23 +11985,27 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											hadoken
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickLow
 										}
 									/>{" "}
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9417,22 +12024,26 @@ function App() {
 								</li>
 								<li class="list-group-item">
 									<img
+										alt="fightingIcon"
 										src={
 											reverseHadoken
 										}
 									/>
 									<img
+										alt="fightingIcon"
 										src={
 											halfCircleFoward
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
 									/>{" "}
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
@@ -9450,18 +12061,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											punchHigh
 										}
@@ -9475,18 +12089,21 @@ function App() {
 									[CLOSE
 									BY]
 									<img
+										alt="fightingIcon"
 										src={
 											left
 										}
 									/>
 									or
 									<img
+										alt="fightingIcon"
 										src={
 											right
 										}
 									/>
 									+
 									<img
+										alt="fightingIcon"
 										src={
 											kickHigh
 										}
