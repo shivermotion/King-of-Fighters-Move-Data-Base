@@ -8511,33 +8511,334 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwentyTwo"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									SLIDING
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TRAP
+									SHOT
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									VENOM
+									STRIKE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									AIR
+									VENOM
+									STRIKE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TORNADO
+									KICK
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TRAP
+									SHOT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									SURPRISE
+									ROSE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SILENT
+									FLASH
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ILLUSION
+									DANCE
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									HOLD
+									RUSH
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOOK
+									BUSTER
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -8563,33 +8864,398 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwentyThree"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									REX HEAD
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									YUCATAN
+									PUNCH
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ZETSUMETSU
+									HURRICANE
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ASSUALT
+									RAPTOR
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ANKYLO
+									HAMMER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ANKYLO
+									HAMMER
+									(BRAKE)
+								</li>
+								<li class="list-group-item">
+									[ANKYLO
+									HAMMER]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									GIGA
+									COMPY
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CHICXULUB
+									BUSTER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									SUPER
+									ZETSUMETSU
+									HURRICANE
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item">
+									DINNER
+									OF
+									DINOSAUR
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									SPIRAL
+									ARM
+									EXCAVATION
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									DYNA
+									BOMB
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DYNA
+									BUSTER
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -9927,33 +10593,333 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwentyEight"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									TSUI
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									GEKI
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									[CANCEL
+									BY{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>{" "}
+									or{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>{" "}
+									]
+								</li>
+								<li class="list-group-item">
+									REN [EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RIN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KOU
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									TOU
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item">
+									TEI
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									BEN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									SEN
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CHOU
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -11693,33 +12659,729 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingThirtyThree"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									SANKAKU-TOBI
+								</li>
+								<li class="list-group-item">
+									[IN AIR
+									NEAR
+									CORNER]
+									<img
+										alt="fightingIcon"
+										src={
+											upRight
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									DROP
+									KICK
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											downRight
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HEAD
+									BUTT
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 1
+								</li>
+								<li class="list-group-item">
+									[HEAD
+									BUTT]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 2
+								</li>
+								<li class="list-group-item">
+									[HEAD
+									BUTT]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									TIGER
+									NECK
+									CHANCERY
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									ROLLING
+									SOBAT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FLYING
+									BODY
+									ATTACK
+								</li>
+								<li class="list-group-item">
+									[ROLLING
+									SOBAT]
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 1
+								</li>
+								<li class="list-group-item">
+									[FLYING
+									BODY
+									ATTACK]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 2
+								</li>
+								<li class="list-group-item">
+									[FLYING
+									BODY
+									ATTACK]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SOMERSAULT
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[SOMERSAULT]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									TIGER
+									LOAD
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FEINT
+									DASH
+								</li>
+								<li class="list-group-item">
+									[TIGER
+									LOAD]
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FEINT
+									JUMP
+								</li>
+								<li class="list-group-item">
+									[TIGER
+									LOAD]
+									<img
+										alt="fightingIcon"
+										src={
+											upRight
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									CROSS
+									CHOP
+								</li>
+								<li class="list-group-item">
+									[TIGER
+									LOAD]
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FORCE OF
+									WILL
+								</li>
+								<li class="list-group-item">
+									[TIGER
+									LOAD]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 1
+								</li>
+								<li class="list-group-item">
+									[FORCE
+									OF WILL]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 2
+								</li>
+								<li class="list-group-item">
+									[FORCE
+									OF WILL]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									BIRD OF
+									PARADISE
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 1
+								</li>
+								<li class="list-group-item">
+									[BIRD OF
+									PARADISE]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HOIST 2
+								</li>
+								<li class="list-group-item">
+									[BIRD OF
+									PARADISE]
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											down
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FEINT
+									STEP
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									[HOLD
+									OK]
+								</li>
+
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									TIGER
+									SPIN
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									EL·DIABLO·AMRAILLLO·RAMON·VOLANDO
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									HYPER
+									SONIC·RAMON
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									ARM WHIP
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									FLYING
+									MARE
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -11745,33 +13407,405 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingThirtyFour"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									RYUU
+									HANSHUU
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KOURYUU
+									KOUKYAKU-GERI
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									RYUU-GEKI
+									KEN [EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RYUUGA
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HIEN
+									SENPUU
+									KYAKU
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HIEN
+									RYUUJIN
+									KYAKU
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									GEN-EI
+									KYAKU
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>{" "}
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									RYUUREN·GEN-EI
+									KYAKU
+									[EX]
+								</li>
+								<li class="list-group-item">
+									[IN AIR]
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									HAOH
+									SHOUKON
+									KEN
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+
+								<li class="list-group-item">
+									RYUUKO
+									RANBU
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleBack
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									MU-EI
+									SENPUU
+									RYUU
+									ZANSHOU
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									RYUUCHOU
+									KYAKU
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									KUBIKIRI
+									NAGE
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -13344,33 +15378,363 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingFortyThree"
 					>
 						<div class="accordion-body">
-							<strong>
-								This is the
-								second item's
-								accordion body.
-							</strong>{" "}
-							It is hidden by default,
-							until the collapse
-							plugin adds the
-							appropriate classes that
-							we use to style each
-							element. These classes
-							control the overall
-							appearance, as well as
-							the showing and hiding
-							via CSS transitions. You
-							can modify any of this
-							with custom CSS or
-							overriding our default
-							variables. It's also
-							worth noting that just
-							about any HTML can go
-							within the{" "}
-							<code>
-								.accordion-body
-							</code>
-							, though the transition
-							does limit overflow.
+							<ul class="list-group">
+								<li class="list-group-item text-center">
+									Command
+									Moves
+								</li>
+								<li class="list-group-item">
+									REGRET
+									BASH
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									STEP
+									SIDE
+									KICK
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									MISSILE
+									MIGHT
+									BASH
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									UPPER
+									DUEL
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											shory
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									JET
+									COUNTER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									JET
+									COUNTER
+									STILL
+								</li>
+								<li class="list-group-item">
+									[JET
+									COUNTER]
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									SLEDGEHAMMER
+									[EX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									FINAL
+									IMPACT
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								[HOLD OK]
+								<li class="list-group-item">
+									VARIABLE
+									BASH
+									STREAM
+									[MAX]
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											hadoken
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickLow
+										}
+									/>{" "}
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Climax
+									Super
+									Special
+									Moves
+								</li>
+								<li class="list-group-item">
+									ULTIMATE
+									BILLION
+									BASH
+								</li>
+								<li class="list-group-item">
+									<img
+										alt="fightingIcon"
+										src={
+											reverseHadoken
+										}
+									/>
+									<img
+										alt="fightingIcon"
+										src={
+											halfCircleFoward
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>{" "}
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item text-center">
+									Normal
+									Throws
+								</li>
+								<li class="list-group-item">
+									LIVER
+									BLOW
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											punchHigh
+										}
+									/>
+								</li>
+								<li class="list-group-item">
+									HATCHET
+									THROW
+								</li>
+								<li class="list-group-item">
+									[CLOSE
+									BY]
+									<img
+										alt="fightingIcon"
+										src={
+											left
+										}
+									/>
+									or
+									<img
+										alt="fightingIcon"
+										src={
+											right
+										}
+									/>
+									+
+									<img
+										alt="fightingIcon"
+										src={
+											kickHigh
+										}
+									/>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
