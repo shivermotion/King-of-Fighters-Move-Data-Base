@@ -15,7 +15,11 @@ import kickHigh from "./assets/kickHigh.png";
 import kickLow from "./assets/kickLow.png";
 import upRight from "./assets/upRight.png";
 import upLeft from "./assets/upLeft.png";
+import magnifyGlass from "./assets/zoom.png";
 require("./App.css");
+// NOT IN USE (ANIMATED BACKGROUND)
+// require("./(not in use)animated-background/background.css");
+// require("./(not in use)animated-background/background.js");
 
 function App() {
 	return (
@@ -29,15 +33,16 @@ function App() {
 							src={logo}
 							width="40"
 							height="40"
-							class="d-inline-block align-text-top"
+							class="d-inline-block"
 						/>{" "}
 						<span
 							class="text-light bg-dark"
-							id="title"
+							id="navTitle"
 						>
 							fight companion
 						</span>
 					</a>
+
 					{/* PAYPAL BUTTON*/}
 
 					<form
@@ -78,11 +83,37 @@ function App() {
 					</form>
 				</div>
 			</nav>
+			{/* frame data section */}
+			<div class="d-flex position-relative">
+				<img
+					src={magnifyGlass}
+					href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSdtZSsJJ90Kh39zAUvq8RDGZvUgRI4CPMV-LtNjiPyYNhXIs3wVB80wtJ0GvVA3a3VzpimZiveJeR/pubhtml#"
+					width="100"
+					height="100"
+					class="flex-shrink-0 me-3"
+					alt="magnifyGlass"
+				/>
 
+				<div>
+					<h5 class="mt-0">FRAME DATA</h5>
+					<p>
+						currated by the KoF 15 discord
+						community
+					</p>
+					<a
+						href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSdtZSsJJ90Kh39zAUvq8RDGZvUgRI4CPMV-LtNjiPyYNhXIs3wVB80wtJ0GvVA3a3VzpimZiveJeR/pubhtml#"
+						class="stretched-link text-dark"
+					>
+						<img></img>
+						Frame Data Get!
+					</a>
+				</div>
+			</div>
 			{/*MAIN*/}
-			<p class="text-center">
-				<h2>FIGHTERS</h2>
+			<p id="heading" class="text-center">
+				<h2>-FIGHTERS-</h2>
 			</p>
+
 			{/*CHARACTER LIST */}
 			<div
 				class="accordion"
@@ -18304,6 +18335,33 @@ function App() {
 							</ul>
 						</div>
 					</div>
+				</div>
+				{/* Footer */}
+				<div class="container">
+					<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+						<div class="col-md-4 d-flex align-items-center">
+							<a
+								href="/"
+								class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+							></a>
+							<span class="text-muted">
+								© 2022 Jason Day
+							</span>
+						</div>
+
+						<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+							<li class="ms-3">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+								>
+									<path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+								</svg>
+							</li>
+						</ul>
+					</footer>
 				</div>
 			</div>
 		</div>

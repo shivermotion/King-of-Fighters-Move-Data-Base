@@ -1,4 +1,18 @@
-#title {
+/* comment out work sans or dot gothic to switch between font styles */
+
+#navTitle {
+	font-family: "DotGothic16", sans-serif;
+	font-family: "Work Sans", sans-serif;
+}
+
+#heading {
+	font-family: "DotGothic16", sans-serif;
+	font-family: "Work Sans", sans-serif;
+}
+
+h5,
+p,
+a {
 	font-family: "DotGothic16", sans-serif;
 	font-family: "Work Sans", sans-serif;
 }
