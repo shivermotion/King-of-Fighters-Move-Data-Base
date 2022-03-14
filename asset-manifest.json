@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/King-of-Fighters-Move-Data-Base/static/css/main.e6c13ad2.css",
-    "main.js": "/King-of-Fighters-Move-Data-Base/static/js/main.c04bace0.js",
+    "main.css": "/King-of-Fighters-Move-Data-Base/static/css/main.122a0763.css",
+    "main.js": "/King-of-Fighters-Move-Data-Base/static/js/main.ee1796fc.js",
     "static/js/787.ee6b32b7.chunk.js": "/King-of-Fighters-Move-Data-Base/static/js/787.ee6b32b7.chunk.js",
-    "static/media/arcade-game.png": "/King-of-Fighters-Move-Data-Base/static/media/arcade-game.064e116ed139bcbadba9.png",
+    "static/media/punchCircle.png": "/King-of-Fighters-Move-Data-Base/static/media/punchCircle.b87d1a482e2fdf0357d0.png",
     "index.html": "/King-of-Fighters-Move-Data-Base/index.html",
-    "main.e6c13ad2.css.map": "/King-of-Fighters-Move-Data-Base/static/css/main.e6c13ad2.css.map",
-    "main.c04bace0.js.map": "/King-of-Fighters-Move-Data-Base/static/js/main.c04bace0.js.map",
+    "main.122a0763.css.map": "/King-of-Fighters-Move-Data-Base/static/css/main.122a0763.css.map",
+    "main.ee1796fc.js.map": "/King-of-Fighters-Move-Data-Base/static/js/main.ee1796fc.js.map",
     "787.ee6b32b7.chunk.js.map": "/King-of-Fighters-Move-Data-Base/static/js/787.ee6b32b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.c04bace0.js"
+    "static/css/main.122a0763.css",
+    "static/js/main.ee1796fc.js"
   ]
 }
