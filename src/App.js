@@ -1,9 +1,8 @@
-import logo from "./assets/arcade-game.png";
+import logo from "./assets/punchCircle.png";
 import right from "./assets/right.png";
 import left from "./assets/left.png";
 import up from "./assets/up.png";
 import down from "./assets/down.png";
-// import downLeft from "./assets/downLeft.png";
 import downRight from "./assets/downRight.png";
 import halfCircleFoward from "./assets/halfCircleForward.png";
 import halfCircleBack from "./assets/halfCircleBack.png";
@@ -16,6 +15,7 @@ import kickHigh from "./assets/kickHigh.png";
 import kickLow from "./assets/kickLow.png";
 import upRight from "./assets/upRight.png";
 import upLeft from "./assets/upLeft.png";
+require("./App.css");
 
 function App() {
 	return (
@@ -27,14 +27,19 @@ function App() {
 						<img
 							alt="fightingIcon"
 							src={logo}
-							width="30"
-							height="24"
+							width="40"
+							height="40"
 							class="d-inline-block align-text-top"
-						/>
-						KOFIV TRAINING COMPANION
+						/>{" "}
+						<span
+							class="text-light bg-dark"
+							id="title"
+						>
+							fight companion
+						</span>
 					</a>
 					{/* PAYPAL BUTTON*/}
-					<span>Support the Developer</span>
+
 					<form
 						action="https://www.paypal.com/donate"
 						method="post"
@@ -64,7 +69,7 @@ function App() {
 							alt="Donate with PayPal button"
 						/>
 						<img
-							alt="fightingIcon"
+							alt="paypal"
 							border="0"
 							src="https://www.paypal.com/en_US/i/scr/pixel.gif"
 							width="1"
@@ -76,7 +81,7 @@ function App() {
 
 			{/*MAIN*/}
 			<p class="text-center">
-				<h1>FIGHTERS</h1>
+				<h2>FIGHTERS</h2>
 			</p>
 			{/*CHARACTER LIST */}
 			<div
@@ -85,11 +90,11 @@ function App() {
 			>
 				<div class="accordion-item">
 					<h2
-						class="accordion-header"
+						class="accordion-header "
 						id="panelsStayOpen-headingOne"
 					>
 						<button
-							class="accordion-button"
+							class="accordion-button bg-dark text-light"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseOne"
@@ -105,8 +110,8 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingOne"
 					>
 						<div class="accordion-body">
-							<ul class="list-group">
-								<li class="list-group-item text-center">
+							<ul class="list-group ">
+								<li class="list-group-item text-center bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -114,7 +119,7 @@ function App() {
 									HIRATE
 									UCHI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -140,7 +145,7 @@ function App() {
 									GENEI
 									SHIRANUI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -160,7 +165,7 @@ function App() {
 									TARGET
 									COMBO 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PRESS
 									IN ORDER
 									- CLOSE
@@ -179,7 +184,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-white">
 									Special
 									Moves
 								</li>
@@ -187,7 +192,7 @@ function App() {
 									ZAN-EI
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -213,7 +218,7 @@ function App() {
 									KUUHA
 									DAN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -240,7 +245,7 @@ function App() {
 									DAN
 									(BRAKE)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[KUUHA
 									DAN]
 									<img
@@ -260,7 +265,7 @@ function App() {
 									HISHOU
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -286,7 +291,7 @@ function App() {
 									SHOURYUU
 									DAN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -309,7 +314,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -320,7 +325,7 @@ function App() {
 									DAN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -354,7 +359,7 @@ function App() {
 									KEN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -382,7 +387,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -395,7 +400,7 @@ function App() {
 									SAN-EI
 									KEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -424,7 +429,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -433,7 +438,7 @@ function App() {
 									NAGE
 									(FORWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -462,7 +467,7 @@ function App() {
 									NAGE
 									(BACKWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -497,7 +502,7 @@ function App() {
 						id="panelsStayOpen-headingTwo"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwo"
@@ -513,7 +518,7 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwo"
 					>
 						<div class="accordion-body">
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Command Moves
 							</li>
 							<li class="list-group-item">
@@ -555,7 +560,7 @@ function App() {
 								/>
 							</li>
 
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Special Moves
 							</li>
 							<li class="list-group-item">
@@ -1079,7 +1084,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Super Special
 								Moves
 							</li>
@@ -1149,7 +1154,7 @@ function App() {
 								OPPONENT'S
 								ATTACK]
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Climax Super
 								Special Moves
 							</li>
@@ -1183,7 +1188,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Normal Throws
 							</li>
 							<li class="list-group-item">
@@ -1248,7 +1253,7 @@ function App() {
 						id="panelsStayOpen-headingThree"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThree"
@@ -1264,7 +1269,7 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingThree"
 					>
 						<div class="accordion-body">
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Command Moves
 							</li>
 							<li class="list-group-item">
@@ -1325,7 +1330,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Special Moves
 							</li>
 							<li class="list-group-item">
@@ -1445,7 +1450,7 @@ function App() {
 								/>
 							</li>
 
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Super Special
 								Moves
 							</li>
@@ -1513,7 +1518,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Climax Super
 								Special Moves
 							</li>
@@ -1549,7 +1554,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Normal Throws
 							</li>
 							<li class="list-group-item">
@@ -1614,7 +1619,7 @@ function App() {
 						id="panelsStayOpen-headingFour"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFour"
@@ -1631,14 +1636,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									FLOREAL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1656,7 +1661,7 @@ function App() {
 								<li class="list-group-item">
 									FLOREAL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1675,7 +1680,7 @@ function App() {
 									FLOREAL
 									INSTANT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1690,7 +1695,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -1698,7 +1703,7 @@ function App() {
 									NIVOSE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -1731,7 +1736,7 @@ function App() {
 									GENIE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1772,7 +1777,7 @@ function App() {
 									CAPRICE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -1806,7 +1811,7 @@ function App() {
 									VENTOSE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SANS-COULETTE
 									ACTIVE]
 									<img
@@ -1840,7 +1845,7 @@ function App() {
 									NIVOSE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SANS-COULETTE
 									ACTIVE]
 									<img
@@ -1875,7 +1880,7 @@ function App() {
 									CAPRICE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SANS-COULETTE
 									ACTIVE]
 									<img
@@ -1905,7 +1910,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -1914,7 +1919,7 @@ function App() {
 									THERMIDOR
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1946,7 +1951,7 @@ function App() {
 									PLUVIOSE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -1979,7 +1984,7 @@ function App() {
 									(2-GAUGE)
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2008,7 +2013,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -2017,7 +2022,7 @@ function App() {
 								<li class="list-group-item">
 									ESPOIR
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2045,14 +2050,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									RECOMPENSES
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2079,7 +2084,7 @@ function App() {
 								<li class="list-group-item">
 									VERTUS
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2113,7 +2118,7 @@ function App() {
 						id="panelsStayOpen-headingFive"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFive"
@@ -2130,7 +2135,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -2139,7 +2144,7 @@ function App() {
 									BOMB
 									(GROUND)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2159,7 +2164,7 @@ function App() {
 									BOMB
 									(AIR)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2176,7 +2181,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -2186,7 +2191,7 @@ function App() {
 									ATTACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2213,7 +2218,7 @@ function App() {
 									SWORD
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2240,7 +2245,7 @@ function App() {
 									REFLECTOR
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2267,7 +2272,7 @@ function App() {
 									ARROW
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2296,7 +2301,7 @@ function App() {
 									THROW
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2331,7 +2336,7 @@ function App() {
 									TELEPORT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2358,7 +2363,7 @@ function App() {
 									SHOOT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2380,7 +2385,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -2391,7 +2396,7 @@ function App() {
 									BIT
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2427,7 +2432,7 @@ function App() {
 									(CANSEL)
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SHINING
 									CRYSTAL
 									BIT]
@@ -2449,7 +2454,7 @@ function App() {
 									SHOOT
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2480,7 +2485,7 @@ function App() {
 									[HOLD
 									OK]
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -2491,7 +2496,7 @@ function App() {
 									REMIX
 									SPARK!
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2518,7 +2523,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -2526,7 +2531,7 @@ function App() {
 									PSYCHIC
 									ATTACK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2554,7 +2559,7 @@ function App() {
 									PSYCHIC
 									THROW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2582,7 +2587,7 @@ function App() {
 									PSYCHIC
 									SHOOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY - IN
 									AIR]
@@ -2617,7 +2622,7 @@ function App() {
 						id="panelsStayOpen-headingSix"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseSix"
@@ -2643,7 +2648,7 @@ function App() {
 						id="panelsStayOpen-headingSeven"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseSeven"
@@ -2660,7 +2665,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -2668,7 +2673,7 @@ function App() {
 									FLYING
 									DRILL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2689,7 +2694,7 @@ function App() {
 									KNIFE
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2704,7 +2709,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -2713,7 +2718,7 @@ function App() {
 									RAIJINKEN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -2741,7 +2746,7 @@ function App() {
 									COLLIDER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2773,7 +2778,7 @@ function App() {
 									IAI-GERI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2799,7 +2804,7 @@ function App() {
 									RAIJINKEN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2825,7 +2830,7 @@ function App() {
 									RAIMEITOU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2848,7 +2853,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -2859,7 +2864,7 @@ function App() {
 									SHOT
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2892,7 +2897,7 @@ function App() {
 									KEN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2920,7 +2925,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -2931,7 +2936,7 @@ function App() {
 									JIN-OU
 									KEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -2958,7 +2963,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -2967,7 +2972,7 @@ function App() {
 									AND
 									SHOOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -2995,7 +3000,7 @@ function App() {
 									FRONT
 									SUPLEX
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -3024,7 +3029,7 @@ function App() {
 									KNEE
 									DROP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY-IN
 									AIR]
@@ -3059,7 +3064,7 @@ function App() {
 						id="panelsStayOpen-headingEight"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseEight"
@@ -3085,7 +3090,7 @@ function App() {
 						id="panelsStayOpen-headingNine"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseNine"
@@ -3102,7 +3107,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -3110,7 +3115,7 @@ function App() {
 									HAMMER
 									ARCH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3129,7 +3134,7 @@ function App() {
 									DOUBLE
 									ROLLING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3148,7 +3153,7 @@ function App() {
 									CLIMBING
 									ARROW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3163,7 +3168,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -3172,7 +3177,7 @@ function App() {
 									SLICER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -3206,7 +3211,7 @@ function App() {
 									CLUTCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -3272,7 +3277,7 @@ function App() {
 									ARROW
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3298,7 +3303,7 @@ function App() {
 									M.
 									SNATCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -3334,7 +3339,7 @@ function App() {
 									FALL
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3359,7 +3364,7 @@ function App() {
 								<li class="list-group-item">
 									M.SPIDER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -3395,7 +3400,7 @@ function App() {
 									COUNTER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3421,7 +3426,7 @@ function App() {
 									BACKDROP
 									REAL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY ·
 									REAL
@@ -3450,7 +3455,7 @@ function App() {
 								<li class="list-group-item">
 									M.BREAKER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3473,7 +3478,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -3483,7 +3488,7 @@ function App() {
 									TYPHOON
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									RANGE]
 									<img
@@ -3518,7 +3523,7 @@ function App() {
 									ROSE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3546,7 +3551,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -3557,7 +3562,7 @@ function App() {
 									DYNAMITE
 									SWING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3584,14 +3589,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									LOW KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -3619,7 +3624,7 @@ function App() {
 									VIKTOR
 									THROW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -3653,7 +3658,7 @@ function App() {
 						id="panelsStayOpen-headingTen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTen"
@@ -3670,7 +3675,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -3679,7 +3684,7 @@ function App() {
 									ZHENG
 									ZHENG
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3699,7 +3704,7 @@ function App() {
 									CANG
 									CANG
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3719,7 +3724,7 @@ function App() {
 									CONG
 									CONG
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3734,7 +3739,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -3748,7 +3753,7 @@ function App() {
 									ISSHIN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3798,7 +3803,7 @@ function App() {
 									NORITO
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3837,7 +3842,7 @@ function App() {
 								<li class="list-group-item">
 									STOP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[212
 									KATSU
 									SHINSOKU
@@ -3879,7 +3884,7 @@ function App() {
 									NORITO
 									TEN ZUI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[212
 									KATSU
 									SHINSOKU
@@ -3928,7 +3933,7 @@ function App() {
 									KOTOWARI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3958,7 +3963,7 @@ function App() {
 									SHITSUNE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -3981,7 +3986,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -3993,7 +3998,7 @@ function App() {
 									ISHIZUE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4028,7 +4033,7 @@ function App() {
 									NO FUJIN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4056,7 +4061,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -4069,7 +4074,7 @@ function App() {
 									NO
 									JOUHARI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4096,7 +4101,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -4104,7 +4109,7 @@ function App() {
 									REI
 									GETSU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4131,7 +4136,7 @@ function App() {
 								<li class="list-group-item">
 									KAI TEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4165,7 +4170,7 @@ function App() {
 						id="panelsStayOpen-headingEleven"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseEleven"
@@ -4182,7 +4187,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -4190,7 +4195,7 @@ function App() {
 									SPINNING
 									ARRAY
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4210,7 +4215,7 @@ function App() {
 									ANCHOR
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4229,7 +4234,7 @@ function App() {
 									CARRY
 									OFF KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4244,7 +4249,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -4252,7 +4257,7 @@ function App() {
 									HUNTING
 									AIR [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4279,7 +4284,7 @@ function App() {
 									STOMP
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -4308,7 +4313,7 @@ function App() {
 									THRUST
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4336,7 +4341,7 @@ function App() {
 									STEP
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4363,7 +4368,7 @@ function App() {
 									CHANGE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4390,7 +4395,7 @@ function App() {
 									DASH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4413,7 +4418,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -4424,7 +4429,7 @@ function App() {
 									TOUCH
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4457,7 +4462,7 @@ function App() {
 									DRIVE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4485,7 +4490,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -4494,7 +4499,7 @@ function App() {
 								<li class="list-group-item">
 									ONSLAUGHT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4521,7 +4526,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -4529,7 +4534,7 @@ function App() {
 									STEP
 									TURN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4557,7 +4562,7 @@ function App() {
 									AERIAL
 									DROP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4591,7 +4596,7 @@ function App() {
 						id="panelsStayOpen-headingTwelve"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwelve"
@@ -4608,14 +4613,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									STOMPING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4633,7 +4638,7 @@ function App() {
 								<li class="list-group-item">
 									STEP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4655,7 +4660,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -4664,7 +4669,7 @@ function App() {
 									TACKLE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4690,7 +4695,7 @@ function App() {
 									CLARK
 									LIFT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[MOUNT
 									TACKLE]
 									<img
@@ -4718,7 +4723,7 @@ function App() {
 									LIFT
 									(D.D.T)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[MOUNT
 									TACKLE]
 									<img
@@ -4745,7 +4750,7 @@ function App() {
 									FLASHING
 									ELBOW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SLEEPER
 									LIFT
 									(D.D.T)]
@@ -4774,7 +4779,7 @@ function App() {
 									ROLLING
 									CRADLER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[MOUNT
 									TACKLE]
 									<img
@@ -4810,7 +4815,7 @@ function App() {
 									BACKBREAKER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4839,7 +4844,7 @@ function App() {
 									PUNCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4867,7 +4872,7 @@ function App() {
 									ATTACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -4894,7 +4899,7 @@ function App() {
 									LAKE
 									DRIVER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HP or
 									[EX]
 									GATLING
@@ -4924,7 +4929,7 @@ function App() {
 									FRANKENSTEINER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4948,7 +4953,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -4959,7 +4964,7 @@ function App() {
 									BACKBREAKER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -4994,7 +4999,7 @@ function App() {
 									THREE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5022,7 +5027,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -5033,7 +5038,7 @@ function App() {
 									CLARK
 									BUSTER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5061,7 +5066,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -5069,7 +5074,7 @@ function App() {
 									NAGEPPANASHI
 									GERMAN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5097,7 +5102,7 @@ function App() {
 									FISHERMAN
 									BUSTER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5126,7 +5131,7 @@ function App() {
 									LAKE
 									DRIVER{" "}
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY-IN
 									AIR]
@@ -5161,7 +5166,7 @@ function App() {
 						id="panelsStayOpen-headingThirteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirteen"
@@ -5178,14 +5183,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									HILZUNI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5223,7 +5228,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -5231,7 +5236,7 @@ function App() {
 									BURJ
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5258,7 +5263,7 @@ function App() {
 									QABL
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5285,7 +5290,7 @@ function App() {
 									KHALFI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5311,7 +5316,7 @@ function App() {
 									NESH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5343,7 +5348,7 @@ function App() {
 									ALTARIQ
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5386,7 +5391,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -5395,7 +5400,7 @@ function App() {
 									GHADAB
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									RANGE]
 									<img
@@ -5429,7 +5434,7 @@ function App() {
 									HADIR
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5457,7 +5462,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -5467,7 +5472,7 @@ function App() {
 									KHALAQ
 									AL'ARD
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5494,14 +5499,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									SALABA
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5528,7 +5533,7 @@ function App() {
 								<li class="list-group-item">
 									MARAN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5562,7 +5567,7 @@ function App() {
 						id="panelsStayOpen-headingFourteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFourteen"
@@ -5579,14 +5584,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									ECLAIRE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5602,7 +5607,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -5610,7 +5615,7 @@ function App() {
 									ETINCELLE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5636,7 +5641,7 @@ function App() {
 									COUP·DE·VENT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5662,7 +5667,7 @@ function App() {
 									ILLUSION
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5692,7 +5697,7 @@ function App() {
 									GRELE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5718,7 +5723,7 @@ function App() {
 									AURORE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5741,7 +5746,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -5750,7 +5755,7 @@ function App() {
 									NOBLE-BLANCHE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									RANGE]
 									<img
@@ -5785,7 +5790,7 @@ function App() {
 									RAFALE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5813,7 +5818,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -5824,7 +5829,7 @@ function App() {
 									LA
 									LUMIERE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -5851,14 +5856,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									MANIERE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5885,7 +5890,7 @@ function App() {
 								<li class="list-group-item">
 									EXIL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -5919,7 +5924,7 @@ function App() {
 						id="panelsStayOpen-headingFifteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFifteen"
@@ -5945,7 +5950,7 @@ function App() {
 						id="panelsStayOpen-headingSixteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseSixteen"
@@ -5971,7 +5976,7 @@ function App() {
 						id="panelsStayOpen-headingSeventeen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseSeventeen"
@@ -5988,7 +5993,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -5996,7 +6001,7 @@ function App() {
 									SHOOTER
 									NARNAGEL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6012,7 +6017,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -6021,7 +6026,7 @@ function App() {
 									CUTTER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -6054,7 +6059,7 @@ function App() {
 									SLASHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -6088,7 +6093,7 @@ function App() {
 									BRINGER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6116,7 +6121,7 @@ function App() {
 									STINGER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6143,7 +6148,7 @@ function App() {
 									SABER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6166,7 +6171,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -6176,7 +6181,7 @@ function App() {
 									END
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6209,7 +6214,7 @@ function App() {
 									SLASH
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6254,7 +6259,7 @@ function App() {
 									/>{" "}
 									)
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -6263,7 +6268,7 @@ function App() {
 								<li class="list-group-item">
 									GAE BOLG
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6290,7 +6295,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -6298,7 +6303,7 @@ function App() {
 									LEAD
 									BELCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6325,7 +6330,7 @@ function App() {
 								<li class="list-group-item">
 									BACKSTABBING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6359,7 +6364,7 @@ function App() {
 						id="panelsStayOpen-headingEighteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseEighteen"
@@ -6376,7 +6381,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -6384,7 +6389,7 @@ function App() {
 									GE-SHIKI
 									YUMEBIKI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6404,7 +6409,7 @@ function App() {
 									YUMEBIKI(FOLLOW
 									UP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[GE-SHIKI
 									YUMEBIKI]
 									<img
@@ -6418,7 +6423,7 @@ function App() {
 									GE-SHIKI
 									YURIORI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -6439,7 +6444,7 @@ function App() {
 									GOFU IN
 									"SHINIGAMI"
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6454,7 +6459,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -6464,7 +6469,7 @@ function App() {
 									YAMIBARAI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6492,7 +6497,7 @@ function App() {
 									ONIYAKI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6520,7 +6525,7 @@ function App() {
 									AOIBANA
 									1 [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6547,7 +6552,7 @@ function App() {
 									AOIBANA
 									2 [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[127
 									SHIKI
 									AOIBANA
@@ -6578,7 +6583,7 @@ function App() {
 									AOIBANA
 									3 [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[127
 									SHIKI
 									AOIBANA
@@ -6610,7 +6615,7 @@ function App() {
 									KOTOTSHUKI
 									IN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6636,7 +6641,7 @@ function App() {
 									KUZUKAZE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6672,7 +6677,7 @@ function App() {
 									TSUMAKUSHI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6701,7 +6706,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -6712,7 +6717,7 @@ function App() {
 									YAOTOME
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6746,7 +6751,7 @@ function App() {
 									SAIKA
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -6796,7 +6801,7 @@ function App() {
 									YASHIORI
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6826,7 +6831,7 @@ function App() {
 									[HOLD
 									OK]
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -6837,7 +6842,7 @@ function App() {
 									SHIKI
 									HOZUKI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6864,14 +6869,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									SAKAHAGI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6898,7 +6903,7 @@ function App() {
 								<li class="list-group-item">
 									KANYARAI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -6932,7 +6937,7 @@ function App() {
 						id="panelsStayOpen-headingNineteen"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseNineteen"
@@ -6949,14 +6954,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									CLOUD
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6974,7 +6979,7 @@ function App() {
 								<li class="list-group-item">
 									DESIGNS
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -6990,7 +6995,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -6998,7 +7003,7 @@ function App() {
 									DRIPS
 									FORWARD
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7025,7 +7030,7 @@ function App() {
 									DRIPS
 									BACKWARDS
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7045,7 +7050,7 @@ function App() {
 									DRIPS
 									VERTICAL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7065,7 +7070,7 @@ function App() {
 									PIECING
 									A [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7085,7 +7090,7 @@ function App() {
 									PIECING
 									B [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7105,7 +7110,7 @@ function App() {
 									PIECING
 									C [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7132,7 +7137,7 @@ function App() {
 									FILL-IN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7158,7 +7163,7 @@ function App() {
 									SCRIBE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7184,7 +7189,7 @@ function App() {
 									TO FRONT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7209,7 +7214,7 @@ function App() {
 								<li class="list-group-item">
 									BRAKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[TO
 									FRONT]
 									<img
@@ -7352,7 +7357,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -7362,7 +7367,7 @@ function App() {
 									BACK
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -7396,7 +7401,7 @@ function App() {
 									STYLE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7424,7 +7429,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -7434,7 +7439,7 @@ function App() {
 									KING OF
 									PIECE:I&A
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7461,14 +7466,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									ALL CITY
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -7496,7 +7501,7 @@ function App() {
 									CROSSING
 									OUT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -7530,7 +7535,7 @@ function App() {
 						id="panelsStayOpen-headingTwenty"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwenty"
@@ -7547,7 +7552,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -7556,7 +7561,7 @@ function App() {
 									HIGH
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7574,7 +7579,7 @@ function App() {
 								<li class="list-group-item">
 									SLIDING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7593,7 +7598,7 @@ function App() {
 									HIGH
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7609,7 +7614,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -7618,7 +7623,7 @@ function App() {
 									UPPER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7645,7 +7650,7 @@ function App() {
 									KICK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7672,7 +7677,7 @@ function App() {
 									KICK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7698,7 +7703,7 @@ function App() {
 									BAKURETSUKEN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7725,7 +7730,7 @@ function App() {
 									KAKATO
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7748,7 +7753,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -7758,7 +7763,7 @@ function App() {
 									UPPER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7792,7 +7797,7 @@ function App() {
 									TIGER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7820,7 +7825,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -7831,7 +7836,7 @@ function App() {
 									SCREW
 									PREMIUM
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7858,14 +7863,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									HIZA-JIGOKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -7894,7 +7899,7 @@ function App() {
 									SPECIAL
 									2
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -7928,7 +7933,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyOne"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyOne"
@@ -7945,14 +7950,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									ONE INCH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7971,7 +7976,7 @@ function App() {
 									KNEE
 									ASSAULT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -7990,7 +7995,7 @@ function App() {
 									SNIPER
 									SIDE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8006,7 +8011,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -8015,7 +8020,7 @@ function App() {
 									TRIGGER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8041,7 +8046,7 @@ function App() {
 									SECOND
 									WHIP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[EIN
 									TRIGGER]
 									<img
@@ -8062,7 +8067,7 @@ function App() {
 									SECOND
 									SHOOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[EIN
 									TRIGGER]
 									<img
@@ -8083,7 +8088,7 @@ function App() {
 									SECOND
 									KNUCKLE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[EIN
 									TRIGGER]
 									<img
@@ -8104,7 +8109,7 @@ function App() {
 									SECOND
 									SHELL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[EIN
 									TRIGGER]
 									<img
@@ -8158,7 +8163,7 @@ function App() {
 									BLACKOUT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8185,7 +8190,7 @@ function App() {
 									BITE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8213,7 +8218,7 @@ function App() {
 									(FOLLOW
 									UP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CROW
 									BITE]
 									<img
@@ -8235,7 +8240,7 @@ function App() {
 									SPIKE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8261,7 +8266,7 @@ function App() {
 									NARROW
 									SPIKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[MINUTE
 									SPIKE]
 									<img
@@ -8291,7 +8296,7 @@ function App() {
 									SPIKE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -8315,7 +8320,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -8325,7 +8330,7 @@ function App() {
 									DRIVE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8360,7 +8365,7 @@ function App() {
 									DRIVE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8388,7 +8393,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -8399,7 +8404,7 @@ function App() {
 									CHAIN
 									DRIVE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8426,14 +8431,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									SPOTPILE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -8461,7 +8466,7 @@ function App() {
 									KNEE
 									STRIKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -8495,7 +8500,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyTwo"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyTwo"
@@ -8512,14 +8517,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									SLIDING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8538,7 +8543,7 @@ function App() {
 									TRAP
 									SHOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8554,7 +8559,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -8563,7 +8568,7 @@ function App() {
 									STRIKE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8591,7 +8596,7 @@ function App() {
 									STRIKE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -8619,7 +8624,7 @@ function App() {
 									KICK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8646,7 +8651,7 @@ function App() {
 									SHOT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8669,7 +8674,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -8679,7 +8684,7 @@ function App() {
 									ROSE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8712,7 +8717,7 @@ function App() {
 									FLASH
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8740,7 +8745,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -8750,7 +8755,7 @@ function App() {
 									ILLUSION
 									DANCE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -8778,7 +8783,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -8786,7 +8791,7 @@ function App() {
 									HOLD
 									RUSH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -8814,7 +8819,7 @@ function App() {
 									HOOK
 									BUSTER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -8848,7 +8853,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyThree"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyThree"
@@ -8865,14 +8870,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									REX HEAD
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8891,7 +8896,7 @@ function App() {
 									YUCATAN
 									PUNCH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8906,7 +8911,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -8915,7 +8920,7 @@ function App() {
 									HURRICANE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -8943,7 +8948,7 @@ function App() {
 									RAPTOR
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8970,7 +8975,7 @@ function App() {
 									HAMMER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -8997,7 +9002,7 @@ function App() {
 									HAMMER
 									(BRAKE)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[ANKYLO
 									HAMMER]
 									<img
@@ -9025,7 +9030,7 @@ function App() {
 									COMPY
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9052,7 +9057,7 @@ function App() {
 									BUSTER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9080,7 +9085,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -9091,7 +9096,7 @@ function App() {
 									HURRICANE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -9127,7 +9132,7 @@ function App() {
 									DINOSAUR
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9155,7 +9160,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -9166,7 +9171,7 @@ function App() {
 									ARM
 									EXCAVATION
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9195,7 +9200,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -9203,7 +9208,7 @@ function App() {
 									DYNA
 									BOMB
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9231,7 +9236,7 @@ function App() {
 									DYNA
 									BUSTER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9265,7 +9270,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyFour"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyFour"
@@ -9282,7 +9287,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -9290,7 +9295,7 @@ function App() {
 									SPIRAL
 									SMASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9309,7 +9314,7 @@ function App() {
 									EMERGENCY
 									SLIDE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9324,7 +9329,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -9333,7 +9338,7 @@ function App() {
 									THROWER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9360,7 +9365,7 @@ function App() {
 									SHIELD
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9387,7 +9392,7 @@ function App() {
 									SLASH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9410,7 +9415,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -9420,7 +9425,7 @@ function App() {
 									PROMINENCE
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9453,7 +9458,7 @@ function App() {
 									BLASTER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9481,7 +9486,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -9491,7 +9496,7 @@ function App() {
 									CALAMITY
 									OVERDRIVE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9519,7 +9524,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -9527,7 +9532,7 @@ function App() {
 									FRONT
 									CRASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9554,7 +9559,7 @@ function App() {
 								<li class="list-group-item">
 									BACKSTAB
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9588,7 +9593,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyFive"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyFive"
@@ -9605,7 +9610,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -9613,7 +9618,7 @@ function App() {
 									FUSSA
 									KEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9629,7 +9634,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -9637,7 +9642,7 @@ function App() {
 									NESSA
 									JIN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9664,7 +9669,7 @@ function App() {
 									SENPUU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9690,7 +9695,7 @@ function App() {
 									AIR·BOSSA-SHOUGEKI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -9718,7 +9723,7 @@ function App() {
 									SAJIN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9765,7 +9770,7 @@ function App() {
 									CHUGEKI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9788,7 +9793,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -9799,7 +9804,7 @@ function App() {
 									TOTSUHA
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9833,7 +9838,7 @@ function App() {
 									FUJIN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9861,7 +9866,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -9872,7 +9877,7 @@ function App() {
 									NESSA
 									HOUSAIRYU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -9900,7 +9905,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -9908,7 +9913,7 @@ function App() {
 									MIKEN
 									FUNSAI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9935,7 +9940,7 @@ function App() {
 								<li class="list-group-item">
 									BAKKONSAI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -9969,7 +9974,7 @@ function App() {
 						id="panelsStayOpen-headingTwentySix"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentySix"
@@ -9985,7 +9990,7 @@ function App() {
 						aria-labelledby="panelsStayOpen-headingTwentySix"
 					>
 						<div class="accordion-body">
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Command Moves
 							</li>
 							<li class="list-group-item">
@@ -10045,7 +10050,7 @@ function App() {
 								/>
 							</li>
 
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Special Moves
 							</li>
 							<li class="list-group-item">
@@ -10530,7 +10535,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Super Special
 								Moves
 							</li>
@@ -10600,7 +10605,7 @@ function App() {
 								/>
 								[HOLD OK]
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Climax Super
 								Special Moves
 							</li>
@@ -10635,7 +10640,7 @@ function App() {
 									}
 								/>
 							</li>
-							<li class="list-group-item text-center">
+							<li class="list-group-item text-center bg-dark text-light">
 								Normal Throws
 							</li>
 							<li class="list-group-item">
@@ -10700,7 +10705,7 @@ function App() {
 						id="panelsStayOpen-headingTwentySeven"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentySeven"
@@ -10717,7 +10722,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -10725,7 +10730,7 @@ function App() {
 									STRIKE
 									ARCH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -10748,7 +10753,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -10757,7 +10762,7 @@ function App() {
 									LAUNCHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -10791,7 +10796,7 @@ function App() {
 									SLASHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -10827,7 +10832,7 @@ function App() {
 									ATTACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -10852,7 +10857,7 @@ function App() {
 								<li class="list-group-item">
 									EXPLOSION
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[EARRING
 									BOMB
 									HEART
@@ -10883,7 +10888,7 @@ function App() {
 									BOMB
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -10912,7 +10917,7 @@ function App() {
 									SABER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -10947,7 +10952,7 @@ function App() {
 									(FOLLOW
 									UP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -10974,7 +10979,7 @@ function App() {
 								<li class="list-group-item">
 									X-CALIBUR
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -10997,7 +11002,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -11006,7 +11011,7 @@ function App() {
 									V-SLASHER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11040,7 +11045,7 @@ function App() {
 									SABER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11068,7 +11073,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -11078,7 +11083,7 @@ function App() {
 									LEONA
 									BLADE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11105,7 +11110,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -11114,7 +11119,7 @@ function App() {
 									CRASH
 									(FORWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11143,7 +11148,7 @@ function App() {
 									CRASH
 									(BACKWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11177,7 +11182,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyEight"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyEight"
@@ -11194,14 +11199,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									TSUI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11217,7 +11222,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -11225,7 +11230,7 @@ function App() {
 									GEKI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11279,7 +11284,7 @@ function App() {
 								<li class="list-group-item">
 									REN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11305,7 +11310,7 @@ function App() {
 								<li class="list-group-item">
 									RIN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11330,7 +11335,7 @@ function App() {
 								<li class="list-group-item">
 									KOU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11353,7 +11358,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -11362,7 +11367,7 @@ function App() {
 									TOU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11395,7 +11400,7 @@ function App() {
 									TEI
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11423,7 +11428,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -11432,7 +11437,7 @@ function App() {
 								<li class="list-group-item">
 									BEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11461,14 +11466,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									SEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11495,7 +11500,7 @@ function App() {
 								<li class="list-group-item">
 									CHOU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11529,7 +11534,7 @@ function App() {
 						id="panelsStayOpen-headingTwentyNine"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseTwentyNine"
@@ -11546,14 +11551,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									UKIHANE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11573,7 +11578,7 @@ function App() {
 									KOUKAKU
 									NO MAI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11591,7 +11596,7 @@ function App() {
 								<li class="list-group-item">
 									SANKAKU-TOBI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR
 									BY
 									CORNER]
@@ -11606,7 +11611,7 @@ function App() {
 									TARGET
 									COMBO 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PRESS
 									IN ORDER
 									- CLOSE
@@ -11625,7 +11630,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -11633,7 +11638,7 @@ function App() {
 									RYUUENBU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11659,7 +11664,7 @@ function App() {
 									KACHOUSEN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11686,7 +11691,7 @@ function App() {
 									SHINOBI-BACHI
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11714,7 +11719,7 @@ function App() {
 									FRONT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -11749,7 +11754,7 @@ function App() {
 									BACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -11791,7 +11796,7 @@ function App() {
 									(AIR)
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11814,7 +11819,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -11825,7 +11830,7 @@ function App() {
 									SHINOI-BACHI
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -11859,7 +11864,7 @@ function App() {
 									SHINOI-BACHI
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11894,7 +11899,7 @@ function App() {
 									[MAX]
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11923,7 +11928,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -11934,7 +11939,7 @@ function App() {
 									OUGI
 									KUZUNOHA
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -11962,7 +11967,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -11970,7 +11975,7 @@ function App() {
 									SHIRANUI
 									GORIN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -11998,7 +12003,7 @@ function App() {
 									FUUSHA
 									KUZUSHI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12025,7 +12030,7 @@ function App() {
 								<li class="list-group-item">
 									YUME-ZAKURA{" "}
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -12058,7 +12063,7 @@ function App() {
 						id="panelsStayOpen-headingThirty"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirty"
@@ -12075,7 +12080,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -12085,7 +12090,7 @@ function App() {
 									MISSILE
 									(PROTOTYPE)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12101,7 +12106,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -12111,7 +12116,7 @@ function App() {
 									CANNON
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12139,7 +12144,7 @@ function App() {
 									CANNON
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -12168,7 +12173,7 @@ function App() {
 									CANNON
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12195,7 +12200,7 @@ function App() {
 									PRESS
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12225,7 +12230,7 @@ function App() {
 									(FOLLOW
 									UP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[MAXIMA
 									PRESS]
 									<img
@@ -12254,7 +12259,7 @@ function App() {
 									CHARGE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12277,7 +12282,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -12288,7 +12293,7 @@ function App() {
 									CANNON
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12322,7 +12327,7 @@ function App() {
 									LASER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12350,7 +12355,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -12361,7 +12366,7 @@ function App() {
 									CIWS
 									LAUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12388,7 +12393,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -12396,7 +12401,7 @@ function App() {
 									DYNAMITE
 									DROP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12424,7 +12429,7 @@ function App() {
 									DROP
 									BOMB
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12458,7 +12463,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyOne"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyOne"
@@ -12475,7 +12480,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -12483,7 +12488,7 @@ function App() {
 									NEZOU
 									RANGEKI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12501,7 +12506,7 @@ function App() {
 								<li class="list-group-item">
 									CHINZANKOU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12516,7 +12521,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -12525,7 +12530,7 @@ function App() {
 									NAGE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12551,7 +12556,7 @@ function App() {
 									SEN-SISS
 									HOU [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -12586,7 +12591,7 @@ function App() {
 									(FOLLOW
 									UP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SEN-SISS
 									HOU]
 									<img
@@ -12607,7 +12612,7 @@ function App() {
 									GEKI HOU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -12641,7 +12646,7 @@ function App() {
 									KYAKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -12665,7 +12670,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -12675,7 +12680,7 @@ function App() {
 									GEKI HOU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12708,7 +12713,7 @@ function App() {
 									MUSOU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12736,7 +12741,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -12746,7 +12751,7 @@ function App() {
 									SEIKAKU
 									MEITENGYOBU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12773,7 +12778,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -12781,7 +12786,7 @@ function App() {
 									FEINT
 									MAKURA
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12809,7 +12814,7 @@ function App() {
 									MAKURA
 									BOMB
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -12843,7 +12848,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyTwo"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyTwo"
@@ -12860,7 +12865,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -12868,7 +12873,7 @@ function App() {
 									JET
 									UPPER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12884,7 +12889,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -12893,7 +12898,7 @@ function App() {
 									KICK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12913,7 +12918,7 @@ function App() {
 									KICK
 									(FEINT)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12933,7 +12938,7 @@ function App() {
 									IMPACT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12961,7 +12966,7 @@ function App() {
 									PUNCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -12988,7 +12993,7 @@ function App() {
 									PUNCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[REPEATEDLY]
 									<img
 										alt="fightingIcon"
@@ -13009,7 +13014,7 @@ function App() {
 									ATTACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13037,7 +13042,7 @@ function App() {
 									PUNCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -13061,7 +13066,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -13071,7 +13076,7 @@ function App() {
 									PHANTOM
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13105,7 +13110,7 @@ function App() {
 									PUNCH
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13133,7 +13138,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -13144,7 +13149,7 @@ function App() {
 									SUPER
 									PHALANX
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13172,7 +13177,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -13181,7 +13186,7 @@ function App() {
 									HEAD
 									BUTTON
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13209,7 +13214,7 @@ function App() {
 									HEAD
 									STRIKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13243,7 +13248,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyThree"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyThree"
@@ -13260,14 +13265,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									SANKAKU-TOBI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR
 									NEAR
 									CORNER]
@@ -13282,7 +13287,7 @@ function App() {
 									DROP
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13301,7 +13306,7 @@ function App() {
 									HEAD
 									BUTT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13319,7 +13324,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HEAD
 									BUTT]
 									<img
@@ -13345,7 +13350,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 2
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HEAD
 									BUTT]
 									<img
@@ -13369,7 +13374,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -13379,7 +13384,7 @@ function App() {
 									CHANCERY
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13408,7 +13413,7 @@ function App() {
 									SOBAT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13435,7 +13440,7 @@ function App() {
 									BODY
 									ATTACK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[ROLLING
 									SOBAT]
 									<img
@@ -13462,7 +13467,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[FLYING
 									BODY
 									ATTACK]
@@ -13489,7 +13494,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 2
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[FLYING
 									BODY
 									ATTACK]
@@ -13517,7 +13522,7 @@ function App() {
 									SOMERSAULT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SOMERSAULT]
 									<img
 										alt="fightingIcon"
@@ -13544,7 +13549,7 @@ function App() {
 									LOAD
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13570,7 +13575,7 @@ function App() {
 									FEINT
 									DASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[TIGER
 									LOAD]
 									<img
@@ -13590,7 +13595,7 @@ function App() {
 									FEINT
 									JUMP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[TIGER
 									LOAD]
 									<img
@@ -13604,7 +13609,7 @@ function App() {
 									CROSS
 									CHOP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[TIGER
 									LOAD]
 									<img
@@ -13625,7 +13630,7 @@ function App() {
 									FORCE OF
 									WILL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[TIGER
 									LOAD]
 									<img
@@ -13652,7 +13657,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[FORCE
 									OF WILL]
 									<img
@@ -13678,7 +13683,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 2
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[FORCE
 									OF WILL]
 									<img
@@ -13705,7 +13710,7 @@ function App() {
 									BIRD OF
 									PARADISE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13735,7 +13740,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 1
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[BIRD OF
 									PARADISE]
 									<img
@@ -13761,7 +13766,7 @@ function App() {
 								<li class="list-group-item">
 									HOIST 2
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[BIRD OF
 									PARADISE]
 									<img
@@ -13788,7 +13793,7 @@ function App() {
 									FEINT
 									STEP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13813,7 +13818,7 @@ function App() {
 									OK]
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -13823,7 +13828,7 @@ function App() {
 									SPIN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13857,7 +13862,7 @@ function App() {
 									EL·DIABLO·AMRAILLLO·RAMON·VOLANDO
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13885,7 +13890,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -13895,7 +13900,7 @@ function App() {
 									HYPER
 									SONIC·RAMON
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -13922,14 +13927,14 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
 								<li class="list-group-item">
 									ARM WHIP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13957,7 +13962,7 @@ function App() {
 									FLYING
 									MARE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -13991,7 +13996,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyFour"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyFour"
@@ -14008,7 +14013,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -14016,7 +14021,7 @@ function App() {
 									RYUU
 									HANSHUU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14035,7 +14040,7 @@ function App() {
 									KOURYUU
 									KOUKYAKU-GERI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14050,7 +14055,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -14058,7 +14063,7 @@ function App() {
 									RYUU-GEKI
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14084,7 +14089,7 @@ function App() {
 									RYUUGA
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14112,7 +14117,7 @@ function App() {
 									KYAKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14139,7 +14144,7 @@ function App() {
 									RYUUJIN
 									KYAKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -14167,7 +14172,7 @@ function App() {
 									KYAKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14206,7 +14211,7 @@ function App() {
 									KYAKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -14229,7 +14234,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -14240,7 +14245,7 @@ function App() {
 									KEN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14276,7 +14281,7 @@ function App() {
 									RANBU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14304,7 +14309,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -14316,7 +14321,7 @@ function App() {
 									RYUU
 									ZANSHOU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14345,7 +14350,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -14353,7 +14358,7 @@ function App() {
 									RYUUCHOU
 									KYAKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14381,7 +14386,7 @@ function App() {
 									KUBIKIRI
 									NAGE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14415,7 +14420,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyFive"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyFive"
@@ -14441,7 +14446,7 @@ function App() {
 						id="panelsStayOpen-headingThirtySix"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtySix"
@@ -14458,7 +14463,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -14466,7 +14471,7 @@ function App() {
 									HYOUCHUU
 									WARI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14485,7 +14490,7 @@ function App() {
 									JYOUDAN
 									UKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14508,7 +14513,7 @@ function App() {
 									GEDAN
 									UKE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14531,7 +14536,7 @@ function App() {
 									KIZAMI
 									DUKI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14547,7 +14552,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -14555,7 +14560,7 @@ function App() {
 									KOHOU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14581,7 +14586,7 @@ function App() {
 									KO-OU
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14609,7 +14614,7 @@ function App() {
 									KYAKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14635,7 +14640,7 @@ function App() {
 									ZANRETSUKEN
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14670,7 +14675,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -14681,7 +14686,7 @@ function App() {
 									KEN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14714,7 +14719,7 @@ function App() {
 									RANBU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14742,7 +14747,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -14752,7 +14757,7 @@ function App() {
 									SHIN·TENCHI
 									HAOH KEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14779,7 +14784,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -14788,7 +14793,7 @@ function App() {
 									SANREN
 									GEKI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14816,7 +14821,7 @@ function App() {
 									TOMOE
 									NAGE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14850,7 +14855,7 @@ function App() {
 						id="panelsStayOpen-headingThirtySeven"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtySeven"
@@ -14876,7 +14881,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyEight"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyEight"
@@ -14893,7 +14898,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -14901,7 +14906,7 @@ function App() {
 									SHERMIE
 									STAND
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -14916,7 +14921,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -14925,7 +14930,7 @@ function App() {
 									SPIRAL
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -14953,7 +14958,7 @@ function App() {
 									SHERMIE
 									CUTE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SHERMIE
 									SPIRAL]
 									<img
@@ -14982,7 +14987,7 @@ function App() {
 									WHIP
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15009,7 +15014,7 @@ function App() {
 									CLUTCH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15035,7 +15040,7 @@ function App() {
 									SHERMIE
 									CUTE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[SHERMIE
 									CLUTCH]
 									<img
@@ -15064,7 +15069,7 @@ function App() {
 									SHOOT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15092,7 +15097,7 @@ function App() {
 									KICK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15114,7 +15119,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -15124,7 +15129,7 @@ function App() {
 									SHOCK
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15157,7 +15162,7 @@ function App() {
 									CARNIVAL
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -15187,7 +15192,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -15197,7 +15202,7 @@ function App() {
 									SHERMIE
 									EXPOSITION
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15224,7 +15229,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -15233,7 +15238,7 @@ function App() {
 									FLASH
 									ORIGINAL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -15261,7 +15266,7 @@ function App() {
 									FRONT
 									FLASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -15296,7 +15301,7 @@ function App() {
 						id="panelsStayOpen-headingThirtyNine"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseThirtyNine"
@@ -15313,14 +15318,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									SKY AXE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15339,7 +15344,7 @@ function App() {
 									GROUND
 									HAMMER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15358,7 +15363,7 @@ function App() {
 									TARGET
 									COMBO 1{" "}
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15373,7 +15378,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -15382,7 +15387,7 @@ function App() {
 									PHANTOM
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15409,7 +15414,7 @@ function App() {
 									SPEAR
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15436,7 +15441,7 @@ function App() {
 									EFREET
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15463,7 +15468,7 @@ function App() {
 									WING
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -15492,7 +15497,7 @@ function App() {
 									FRONT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -15514,7 +15519,7 @@ function App() {
 									BACK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -15536,7 +15541,7 @@ function App() {
 									SLANT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -15558,7 +15563,7 @@ function App() {
 									UNDER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -15574,7 +15579,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -15584,7 +15589,7 @@ function App() {
 									BURST
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15617,7 +15622,7 @@ function App() {
 									EXTENSION
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15645,7 +15650,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -15655,7 +15660,7 @@ function App() {
 									PHANTOM
 									SINGULATION
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15682,7 +15687,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -15691,7 +15696,7 @@ function App() {
 									KNEE
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -15720,7 +15725,7 @@ function App() {
 									LEG
 									THROW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -15755,7 +15760,7 @@ function App() {
 						id="panelsStayOpen-headingForty"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseForty"
@@ -15772,7 +15777,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -15780,7 +15785,7 @@ function App() {
 									BACK
 									KNUCKLE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15799,7 +15804,7 @@ function App() {
 									RISING
 									UPPER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15814,7 +15819,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -15823,7 +15828,7 @@ function App() {
 									WAVE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15850,7 +15855,7 @@ function App() {
 									KNUCKLE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15877,7 +15882,7 @@ function App() {
 									SHOOT
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15904,7 +15909,7 @@ function App() {
 									TACKLE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15931,7 +15936,7 @@ function App() {
 									CHARGE
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15958,7 +15963,7 @@ function App() {
 									DUNK
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -15980,7 +15985,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -15990,7 +15995,7 @@ function App() {
 									GEYSER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16023,7 +16028,7 @@ function App() {
 									WOLF
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16051,7 +16056,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -16061,7 +16066,7 @@ function App() {
 									STARDUST
 									IGNITION
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16089,7 +16094,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -16098,7 +16103,7 @@ function App() {
 									THROW
 									(FORWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -16127,7 +16132,7 @@ function App() {
 									THROW
 									(BACKWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -16161,7 +16166,7 @@ function App() {
 						id="panelsStayOpen-headingFortyOne"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFortyOne"
@@ -16178,7 +16183,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -16186,7 +16191,7 @@ function App() {
 									ONE-TWO
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16212,7 +16217,7 @@ function App() {
 									SLIDING
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16228,7 +16233,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -16238,7 +16243,7 @@ function App() {
 									PUNCHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16266,7 +16271,7 @@ function App() {
 									PUNCHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CHARGE]
 									<img
 										alt="fightingIcon"
@@ -16300,7 +16305,7 @@ function App() {
 									PUNCHER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16328,7 +16333,7 @@ function App() {
 									(FORWARD)
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16354,7 +16359,7 @@ function App() {
 									PUNCHER
 									UPPER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(FORWARD)]
@@ -16376,7 +16381,7 @@ function App() {
 									PUNCHER
 									STRAIGHT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(FORWARD)]
@@ -16398,7 +16403,7 @@ function App() {
 									PUNCHER
 									WEAVING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(FORWARD)]
@@ -16428,7 +16433,7 @@ function App() {
 									VISION
 									(BACKWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16454,7 +16459,7 @@ function App() {
 									PUNCHER
 									UPPER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(BACKWARD)]
@@ -16476,7 +16481,7 @@ function App() {
 									PUNCHER
 									STRAIGHT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(BACKWARD)]
@@ -16498,7 +16503,7 @@ function App() {
 									PUNCHER
 									WEAVING
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									VISION
 									(BACKWARD)]
@@ -16528,7 +16533,7 @@ function App() {
 									WEAVING
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16555,7 +16560,7 @@ function App() {
 									WEAVING
 									(KEEP)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[
 									<img
 										alt="fightingIcon"
@@ -16576,7 +16581,7 @@ function App() {
 									DASH
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									WEAVING
 									(KEEP)]
@@ -16605,7 +16610,7 @@ function App() {
 									PARRYING
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									WEAVING
 									(KEEP)]
@@ -16635,7 +16640,7 @@ function App() {
 									VISION
 									(FORWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									WEAVING
 									(KEEP)]
@@ -16665,7 +16670,7 @@ function App() {
 									VISION
 									(FORWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									WEAVING
 									(KEEP)]
@@ -16695,7 +16700,7 @@ function App() {
 									VISION
 									(BACKWARD)
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[PUNCHER
 									WEAVING
 									(KEEP)]
@@ -16721,7 +16726,7 @@ function App() {
 									/>
 								</li>
 
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -16731,7 +16736,7 @@ function App() {
 									PUNCHER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16764,7 +16769,7 @@ function App() {
 									PUNCHER
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16792,7 +16797,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -16802,7 +16807,7 @@ function App() {
 									INFINITY
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16829,7 +16834,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -16837,7 +16842,7 @@ function App() {
 									BARRETT
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -16865,7 +16870,7 @@ function App() {
 									CLINCH
 									PUNCHER
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -16899,7 +16904,7 @@ function App() {
 						id="panelsStayOpen-headingFortyTwo"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFortyTwo"
@@ -16916,7 +16921,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -16924,7 +16929,7 @@ function App() {
 									WHIP
 									SHOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16945,7 +16950,7 @@ function App() {
 									TALON
 									SHOT
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -16960,7 +16965,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -16970,7 +16975,7 @@ function App() {
 									"CODE:SC"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17000,7 +17005,7 @@ function App() {
 									SUPERIOR"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17023,7 +17028,7 @@ function App() {
 									CANDY"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[STRENGTH
 									SHOT
 									TYPE A
@@ -17044,7 +17049,7 @@ function App() {
 									STRENGTH"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17067,7 +17072,7 @@ function App() {
 									CANDY"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[STRENGTH
 									SHOT
 									TYPE B
@@ -17088,7 +17093,7 @@ function App() {
 									VICTORY"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17113,7 +17118,7 @@ function App() {
 									CANDY"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[STRENGTH
 									SHOT
 									TYPE C
@@ -17133,7 +17138,7 @@ function App() {
 									ZEPHYR"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -17162,7 +17167,7 @@ function App() {
 									"CODE:FS"
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17190,7 +17195,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -17201,7 +17206,7 @@ function App() {
 									"CODE:KW"
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17236,7 +17241,7 @@ function App() {
 									YGW"
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17264,7 +17269,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -17275,7 +17280,7 @@ function App() {
 									BRANDING
 									"CODE:FA"
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17302,7 +17307,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -17310,7 +17315,7 @@ function App() {
 									STRIKE
 									THREE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -17338,7 +17343,7 @@ function App() {
 									ASSASSIN
 									TRAP
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -17372,7 +17377,7 @@ function App() {
 						id="panelsStayOpen-headingFortyThree"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFortyThree"
@@ -17389,7 +17394,7 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
@@ -17397,7 +17402,7 @@ function App() {
 									REGRET
 									BASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17417,7 +17422,7 @@ function App() {
 									SIDE
 									KICK
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17432,7 +17437,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -17442,7 +17447,7 @@ function App() {
 									BASH
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17469,7 +17474,7 @@ function App() {
 									DUEL
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17496,7 +17501,7 @@ function App() {
 									COUNTER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17523,7 +17528,7 @@ function App() {
 									COUNTER
 									STILL
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[JET
 									COUNTER]
 									<img
@@ -17551,7 +17556,7 @@ function App() {
 									SLEDGEHAMMER
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17573,7 +17578,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -17583,7 +17588,7 @@ function App() {
 									IMPACT
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17618,7 +17623,7 @@ function App() {
 									STREAM
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17646,7 +17651,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -17657,7 +17662,7 @@ function App() {
 									BILLION
 									BASH
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17684,7 +17689,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -17692,7 +17697,7 @@ function App() {
 									LIVER
 									BLOW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -17720,7 +17725,7 @@ function App() {
 									HATCHET
 									THROW
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -17754,7 +17759,7 @@ function App() {
 						id="panelsStayOpen-headingFortyFour"
 					>
 						<button
-							class="accordion-button collapsed"
+							class="accordion-button bg-dark text-light collapsed"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#panelsStayOpen-collapseFortyFour"
@@ -17771,14 +17776,14 @@ function App() {
 					>
 						<div class="accordion-body">
 							<ul class="list-group">
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light bg-dark text-light">
 									Command
 									Moves
 								</li>
 								<li class="list-group-item">
 									ENYOKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17798,7 +17803,7 @@ function App() {
 									RAIJIN
 									KYAKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -17817,7 +17822,7 @@ function App() {
 								<li class="list-group-item">
 									SHIEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17832,7 +17837,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Special
 									Moves
 								</li>
@@ -17840,7 +17845,7 @@ function App() {
 									KO-OU
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17871,7 +17876,7 @@ function App() {
 									UPPER)
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17897,7 +17902,7 @@ function App() {
 									SAIHA
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -17923,7 +17928,7 @@ function App() {
 									RAIOU
 									KEN [EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[IN AIR]
 									<img
 										alt="fightingIcon"
@@ -17951,7 +17956,7 @@ function App() {
 									BINTA
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -17979,7 +17984,7 @@ function App() {
 									HOUYOKU
 									[EX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -18005,7 +18010,7 @@ function App() {
 									HEIN
 									SOUHA
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HOUYOKU]
 									<img
 										alt="fightingIcon"
@@ -18026,7 +18031,7 @@ function App() {
 									RAIJIN
 									KYAKU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HOUYOKU]
 									<img
 										alt="fightingIcon"
@@ -18046,7 +18051,7 @@ function App() {
 									TSUBAME
 									OTOSHI
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HOUYOKU]
 									[ IN
 									AIR]
@@ -18067,7 +18072,7 @@ function App() {
 									RAIOU
 									KEN
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[HOUYOKU]
 									<img
 										alt="fightingIcon"
@@ -18090,7 +18095,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Super
 									Special
 									Moves
@@ -18101,7 +18106,7 @@ function App() {
 									(KUOKUGENRYU·RAIHA)
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -18135,7 +18140,7 @@ function App() {
 									KYAKU
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -18169,7 +18174,7 @@ function App() {
 									KEN
 									[MAX]
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -18197,7 +18202,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center bg-dark text-light">
 									Climax
 									Super
 									Special
@@ -18208,7 +18213,7 @@ function App() {
 									RYUUKO
 									RANBU
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									<img
 										alt="fightingIcon"
 										src={
@@ -18236,7 +18241,7 @@ function App() {
 										}
 									/>
 								</li>
-								<li class="list-group-item text-center">
+								<li class="list-group-item text-center  bg-dark text-light">
 									Normal
 									Throws
 								</li>
@@ -18244,7 +18249,7 @@ function App() {
 									ONI
 									HARITE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
@@ -18272,7 +18277,7 @@ function App() {
 									SILENT
 									NAGE
 								</li>
-								<li class="list-group-item">
+								<li class="list-group-item bg-light">
 									[CLOSE
 									BY]
 									<img
