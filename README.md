@@ -1,8 +1,11 @@
 # KOFmdb
 
-    test
 
-asdfasdf
+![fight-companion-mock](https://user-images.githubusercontent.com/75548830/158318523-98cb45a5-5d07-4ae2-ba34-76c4a92a247e.png)
+
+GitHub Pages: https://shivermotion.github.io/fight-companion/ Github Repo: shivermotion
+/
+fight-companion
 
 # Table of Content
 
@@ -14,20 +17,14 @@ shiver_motion
 
 ## Description:
 
-a fighting game move database
+A kof15 database
 
-## Installation:
-
-## Usage:
 
 ## Licenses:
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 https://opensource.org/licenses/MIT
 
-## Contribution:
-
-## Test:
 
 ## Email:
 
