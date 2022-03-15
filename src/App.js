@@ -15,7 +15,7 @@ import kickHigh from "./assets/kickHigh.png";
 import kickLow from "./assets/kickLow.png";
 import upRight from "./assets/upRight.png";
 import upLeft from "./assets/upLeft.png";
-import magnifyGlass from "./assets/zoom.png";
+import googleSheet from "./assets/google-sheets.png";
 require("./App.css");
 // NOT IN USE (ANIMATED BACKGROUND)
 // require("./(not in use)animated-background/background.css");
@@ -86,25 +86,24 @@ function App() {
 			{/* frame data section */}
 			<div class="d-flex position-relative">
 				<img
-					src={magnifyGlass}
+					src={googleSheet}
 					href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSdtZSsJJ90Kh39zAUvq8RDGZvUgRI4CPMV-LtNjiPyYNhXIs3wVB80wtJ0GvVA3a3VzpimZiveJeR/pubhtml#"
 					width="100"
 					height="100"
 					class="flex-shrink-0 me-3"
-					alt="magnifyGlass"
+					alt="googleSheet"
 				/>
 
 				<div>
 					<h5 class="mt-0">FRAME DATA</h5>
 					<p>
-						currated by the KoF 15 discord
-						community
+						A Google document currated by
+						the KoF 15 discord community.
 					</p>
 					<a
 						href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSdtZSsJJ90Kh39zAUvq8RDGZvUgRI4CPMV-LtNjiPyYNhXIs3wVB80wtJ0GvVA3a3VzpimZiveJeR/pubhtml#"
 						class="stretched-link text-dark"
 					>
-						<img></img>
 						Frame Data Get!
 					</a>
 				</div>
