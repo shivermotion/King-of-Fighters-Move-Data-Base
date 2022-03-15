@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/King-of-Fighters-Move-Data-Base/static/css/main.122a0763.css",
-    "main.js": "/King-of-Fighters-Move-Data-Base/static/js/main.963d91bd.js",
-    "static/js/787.ee6b32b7.chunk.js": "/King-of-Fighters-Move-Data-Base/static/js/787.ee6b32b7.chunk.js",
-    "static/media/punchCircle.png": "/King-of-Fighters-Move-Data-Base/static/media/punchCircle.b87d1a482e2fdf0357d0.png",
-    "index.html": "/King-of-Fighters-Move-Data-Base/index.html",
-    "main.122a0763.css.map": "/King-of-Fighters-Move-Data-Base/static/css/main.122a0763.css.map",
-    "main.963d91bd.js.map": "/King-of-Fighters-Move-Data-Base/static/js/main.963d91bd.js.map",
-    "787.ee6b32b7.chunk.js.map": "/King-of-Fighters-Move-Data-Base/static/js/787.ee6b32b7.chunk.js.map"
+    "main.css": "/fight-companion/static/css/main.122a0763.css",
+    "main.js": "/fight-companion/static/js/main.8e9719ce.js",
+    "static/js/787.5258597f.chunk.js": "/fight-companion/static/js/787.5258597f.chunk.js",
+    "static/media/punchCircle.png": "/fight-companion/static/media/punchCircle.b87d1a482e2fdf0357d0.png",
+    "index.html": "/fight-companion/index.html",
+    "main.122a0763.css.map": "/fight-companion/static/css/main.122a0763.css.map",
+    "main.8e9719ce.js.map": "/fight-companion/static/js/main.8e9719ce.js.map",
+    "787.5258597f.chunk.js.map": "/fight-companion/static/js/787.5258597f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.122a0763.css",
-    "static/js/main.963d91bd.js"
+    "static/js/main.8e9719ce.js"
   ]
 }
