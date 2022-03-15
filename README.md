@@ -1,4 +1,4 @@
-# KOFmdb
+# Fight-Companion
 
 
 ![fight-companion-mock](https://user-images.githubusercontent.com/75548830/158318523-98cb45a5-5d07-4ae2-ba34-76c4a92a247e.png)
