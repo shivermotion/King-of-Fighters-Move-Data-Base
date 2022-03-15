@@ -1,8 +1,8 @@
 {
-  "name": "king-of-fighters-move-data-base",
+  "name": "fight-companion",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shiver_motion.github.io/King-of-Fighters-Move-Data-Base/",
+  "homepage": "https://shiver_motion.github.io/fight-companion/",
   "dependencies": {
     "@creativebulma/bulma-collapsible": "^1.0.4",
     "@testing-library/jest-dom": "^5.16.2",
