@@ -19,7 +19,7 @@ import upLeft from "../assets/upLeft.png";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="container">
 			<div>
 				<p id="heading" class="text-center">
 					<h2>-FIGHTERS-</h2>
