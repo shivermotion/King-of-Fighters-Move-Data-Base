@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/punchCircle.png";
 const Header = () => {
 	return (
-		<div className="header">
+		<div className="header container">
 			{/* NAVBAR*/}
 			<nav class="navbar navbar-dark bg-dark mb-2">
 				<div class="container-fluid">

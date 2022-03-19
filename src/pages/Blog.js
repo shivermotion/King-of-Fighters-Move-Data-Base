@@ -2,30 +2,21 @@ import React from "react";
 
 export default function Blog() {
 	return (
-		<div class="m-4">
-			{/* <h1></h1>
+		<div class="container">
+			<h1>-March 18-</h1>
 			<p>
-				Donec a volutpat quam. Curabitur nec varius
-				justo, sed rutrum ligula. Curabitur pellentesque
-				turpis sit amet eros iaculis, a mollis arcu
-				dictum. Ut vel ante eget massa ornare placerat.
-				Etiam nisl orci, finibus sodales volutpat et,
-				hendrerit ut dolor. Suspendisse porta dictum
-				nunc, sed pretium risus rutrum eget. Nam
-				consequat, ligula in faucibus vestibulum, nisi
-				justo laoreet risus, luctus luctus mi lacus sit
-				amet libero. Class aptent taciti sociosqu ad
-				litora torquent per conubia nostra, per inceptos
-				himenaeos. Mauris pretium condimentum tellus
-				eget lobortis. Interdum et malesuada fames ac
-				ante ipsum primis in faucibus. Donec placerat
-				accumsan mi, ut congue neque placerat eu. Donec
-				nec ipsum in velit pellentesque vehicula sit
-				amet at augue. Maecenas aliquam bibendum congue.
-				Pellentesque semper, lectus non ullamcorper
-				iaculis, est ligula suscipit velit, sed bibendum
-				turpis dui in sapien.
-			</p> */}
+				<h2>Welcome To Fight Companion</h2>A training
+				app that Kings and Queens of Fighters can find
+				move lists, frame data, and a myriad of
+				resources to help you be your very best and
+				pummel the competition. Expect updates as the
+				game and this site progesses. This site is being
+				created solo dolo so maybe show some support by
+				click canceling onto that donate button? The
+				goal is to have enough donations to at least
+				upkeep the sight. If you want to contact me for
+				whatever reason please go to _________
+			</p>
 		</div>
 	);
 }
