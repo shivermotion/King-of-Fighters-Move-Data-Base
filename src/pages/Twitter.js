@@ -4,6 +4,9 @@ export default function Twitter() {
 	return (
 		<div class="container">
 			<h1 class="text-center">TWITTER</h1>
+			<p class="align-center text-center">
+				-power waves heard around the world-
+			</p>
 			<script
 				src="https://assets.juicer.io/embed.js"
 				type="text/javascript"
