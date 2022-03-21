@@ -8,14 +8,17 @@ function NavTabs({ currentPage, handlePageChange }) {
 			<ul className="nav nav-pills flex-column flex-sm-row">
 				<li className="flex-sm-fill text-sm-center nav-link ">
 					<a
-						href="#home"
+						href="#fighters"
 						onClick={() =>
-							handlePageChange("Home")
+							handlePageChange(
+								"Fighters"
+							)
 						}
 						// This is a conditional (ternary) operator that checks to see if the current page is "Home"
 						// If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
 						className={
-							currentPage === "Home"
+							currentPage ===
+							"Fighters"
 								? "nav-link active"
 								: "nav-link"
 						}
@@ -25,15 +28,16 @@ function NavTabs({ currentPage, handlePageChange }) {
 				</li>
 				<li className="flex-sm-fill text-sm-center nav-link">
 					<a
-						href="#about"
+						href="#framedata"
 						onClick={() =>
 							handlePageChange(
-								"About"
+								"FrameData"
 							)
 						}
 						// Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
 						className={
-							currentPage === "About"
+							currentPage ===
+							"FrameData"
 								? "nav-link active"
 								: "nav-link"
 						}
@@ -54,26 +58,26 @@ function NavTabs({ currentPage, handlePageChange }) {
 								: "nav-link"
 						}
 					>
-						Blog
+						BLOG
 					</a>
 				</li>
 				<li className="flex-sm-fill text-sm-center nav-link">
 					<a
-						href="#contact"
+						href="#twitter"
 						onClick={() =>
 							handlePageChange(
-								"Contact"
+								"Twitter"
 							)
 						}
 						// Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
 						className={
 							currentPage ===
-							"Contact"
+							"Twitter"
 								? "nav-link active"
 								: "nav-link"
 						}
 					>
-						Contact
+						TWITTER
 					</a>
 				</li>
 			</ul>

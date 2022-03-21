@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function About() {
+export default function Twitter() {
 	return (
 		<div class="container">
-			<h1 class="text-center">TWITTER </h1>
+			<h1 class="text-center">TWITTER</h1>
 			<script
 				src="https://assets.juicer.io/embed.js"
 				type="text/javascript"

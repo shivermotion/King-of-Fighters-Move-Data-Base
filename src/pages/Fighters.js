@@ -17,7 +17,7 @@ import kickLow from "../assets/kickLow.png";
 import upRight from "../assets/upRight.png";
 import upLeft from "../assets/upLeft.png";
 
-export default function Home() {
+export default function Fighters() {
 	return (
 		<div className="container">
 			<div>
