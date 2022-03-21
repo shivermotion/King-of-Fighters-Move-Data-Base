@@ -7,6 +7,10 @@ import twitter from "../assets/twitter.png";
 export default function FrameData() {
 	return (
 		<div class="container ">
+			<h1 class="text-center">TOOLs and TECH</h1>
+			<p class="align-center text-center">
+				-we fight together-
+			</p>
 			<div class="row">
 				<div class="col-6 col-sm-6 text-center mb-1">
 					<div class="card">

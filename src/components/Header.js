@@ -60,6 +60,16 @@ const Header = () => {
 							height="1"
 						/>
 					</form>
+
+					<button
+						class="btn btn-primary"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasExample"
+						aria-controls="offcanvasExample"
+					>
+						MENU{" "}
+					</button>
 				</div>
 			</nav>
 		</div>

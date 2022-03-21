@@ -3,9 +3,13 @@ import React from "react";
 export default function Blog() {
 	return (
 		<div class="container">
-			<h1>-March 18-</h1>
+			<h1 class="text-center">BLOG</h1>
+			<p class="align-center text-center">
+				-the orochi update saga-
+			</p>
+			<h2>-March 18-</h2>
 			<p>
-				<h2>Welcome To Fight Companion</h2>A training
+				<h3>Welcome To Fight Companion</h3>A training
 				app that you absolute Kings and Queens of
 				Fighters can find move lists, frame data, and a
 				myriad of resources to help you be your very
