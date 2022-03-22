@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/fight-companion/static/css/main.122a0763.css",
-    "main.js": "/fight-companion/static/js/main.b1c6cc4b.js",
+    "main.js": "/fight-companion/static/js/main.b9399daa.js",
     "static/js/787.5258597f.chunk.js": "/fight-companion/static/js/787.5258597f.chunk.js",
+    "static/media/paypal.png": "/fight-companion/static/media/paypal.a94a708b2ebe602ac22b.png",
     "static/media/anime.png": "/fight-companion/static/media/anime.8ea2467d27f073b8147e.png",
     "static/media/punchCircle.png": "/fight-companion/static/media/punchCircle.b87d1a482e2fdf0357d0.png",
     "static/media/discord.png": "/fight-companion/static/media/discord.489d8c6f3d10c2972108.png",
@@ -10,11 +11,11 @@
     "static/media/twitter.png": "/fight-companion/static/media/twitter.9ecda377ded503d653fe.png",
     "index.html": "/fight-companion/index.html",
     "main.122a0763.css.map": "/fight-companion/static/css/main.122a0763.css.map",
-    "main.b1c6cc4b.js.map": "/fight-companion/static/js/main.b1c6cc4b.js.map",
+    "main.b9399daa.js.map": "/fight-companion/static/js/main.b9399daa.js.map",
     "787.5258597f.chunk.js.map": "/fight-companion/static/js/787.5258597f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.122a0763.css",
-    "static/js/main.b1c6cc4b.js"
+    "static/js/main.b9399daa.js"
   ]
 }
