@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/fightFist_circle.png";
+import payPal from "../assets/paypal.png";
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
@@ -107,6 +108,54 @@ function NavTabs({ currentPage, handlePageChange }) {
 								>
 									TWITTER
 								</a>
+							</li>
+
+							{/* PAYPAL BUTTON*/}
+							<li className="flex-sm-fill text-sm-center nav-link">
+								<form
+									action="https://www.paypal.com/donate"
+									method="post"
+									target="_top"
+								>
+									<input
+										type="hidden"
+										name="business"
+										value="527GL73ZVALQ8"
+									/>
+									<input
+										type="hidden"
+										name="no_recurring"
+										value="0"
+									/>
+									<input
+										type="hidden"
+										name="currency_code"
+										value="USD"
+									/>
+									<input
+										type="image"
+										src={
+											payPal
+										}
+										border="0"
+										name="submit"
+										title="PayPal - The safer, easier way to pay online!"
+										alt="Donate with PayPal button"
+										width="80"
+										height="80"
+									/>
+									<img
+										alt="paypal"
+										border="0"
+										src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+										width="1"
+										height="1"
+									/>
+								</form>
+								<p>
+									send a
+									tip
+								</p>
 							</li>
 						</ul>
 					</div>
