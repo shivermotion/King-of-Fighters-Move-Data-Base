@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fight-companion/static/css/main.122a0763.css",
-    "main.js": "/fight-companion/static/js/main.f66ad3a7.js",
+    "main.js": "/fight-companion/static/js/main.a0f75578.js",
     "static/js/787.5258597f.chunk.js": "/fight-companion/static/js/787.5258597f.chunk.js",
     "service-worker.js": "/fight-companion/service-worker.js",
     "static/media/paypal.png": "/fight-companion/static/media/paypal.a94a708b2ebe602ac22b.png",
@@ -12,11 +12,11 @@
     "static/media/twitter.png": "/fight-companion/static/media/twitter.9ecda377ded503d653fe.png",
     "index.html": "/fight-companion/index.html",
     "main.122a0763.css.map": "/fight-companion/static/css/main.122a0763.css.map",
-    "main.f66ad3a7.js.map": "/fight-companion/static/js/main.f66ad3a7.js.map",
+    "main.a0f75578.js.map": "/fight-companion/static/js/main.a0f75578.js.map",
     "787.5258597f.chunk.js.map": "/fight-companion/static/js/787.5258597f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.122a0763.css",
-    "static/js/main.f66ad3a7.js"
+    "static/js/main.a0f75578.js"
   ]
 }
